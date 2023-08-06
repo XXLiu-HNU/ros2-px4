@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target uva1_takeoff[0m
+[  5%] [32m[1mLinking CXX executable uva3_takeoff[0m
+[ 10%] [32m[1mLinking CXX executable uva2_takeoff[0m
+[ 15%] [32m[1mLinking CXX executable uva4_takeoff[0m
+[ 35%] Built target frame_transforms
+[ 35%] Built target offboard_control
+[ 45%] Built target vehicle_gps_position_listener
+[ 65%] Built target sensor_combined_listener
+[ 65%] Built target debug_vect_advertiser
+[ 75%] Built target offboard_con
+[ 80%] [32mBuilding CXX object CMakeFiles/uva1_takeoff.dir/src/examples/offboard/uva1_takeoff.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable uva1_takeoff[0m
+[ 85%] Built target uva1_takeoff

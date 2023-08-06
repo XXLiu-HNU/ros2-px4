@@ -1,0 +1,32 @@
+[0.023s] Invoking command in '/home/xingxunliu/ws_sensor_combined/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/home/xingxunliu/ws_sensor_combined/install/px4_ros_com:/opt/ros/foxy LD_LIBRARY_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:/home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/px4_ros_com -- -j16 -l16
+[0.111s] [35m[1mScanning dependencies of target uva1_takeoff[0m
+[0.125s] [  5%] [32m[1mLinking CXX executable uva3_takeoff[0m
+[0.128s] [ 10%] [32m[1mLinking CXX executable uva2_takeoff[0m
+[0.129s] [ 15%] [32m[1mLinking CXX executable uva4_takeoff[0m
+[0.138s] [ 35%] Built target frame_transforms
+[0.139s] [ 35%] Built target offboard_control
+[0.142s] [ 45%] Built target vehicle_gps_position_listener
+[0.146s] [ 65%] Built target sensor_combined_listener
+[0.146s] [ 65%] Built target debug_vect_advertiser
+[0.150s] [ 75%] Built target offboard_con
+[0.175s] [ 80%] [32mBuilding CXX object CMakeFiles/uva1_takeoff.dir/src/examples/offboard/uva1_takeoff.cpp.o[0m
+[0.233s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.233s] (.text+0x24): undefined reference to `main'
+[0.233s] collect2: error: ld returned 1 exit status
+[0.236s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.236s] (.text+0x24): undefined reference to `main'
+[0.236s] collect2: error: ld returned 1 exit status
+[0.236s] make[2]: *** [CMakeFiles/uva2_takeoff.dir/build.make:136：uva2_takeoff] 错误 1
+[0.237s] make[1]: *** [CMakeFiles/Makefile2:312：CMakeFiles/uva2_takeoff.dir/all] 错误 2
+[0.237s] make[1]: *** 正在等待未完成的任务....
+[0.240s] make[2]: *** [CMakeFiles/uva4_takeoff.dir/build.make:136：uva4_takeoff] 错误 1
+[0.242s] make[1]: *** [CMakeFiles/Makefile2:123：CMakeFiles/uva4_takeoff.dir/all] 错误 2
+[0.255s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.255s] (.text+0x24): undefined reference to `main'
+[0.255s] collect2: error: ld returned 1 exit status
+[0.259s] make[2]: *** [CMakeFiles/uva3_takeoff.dir/build.make:136：uva3_takeoff] 错误 1
+[0.259s] make[1]: *** [CMakeFiles/Makefile2:96：CMakeFiles/uva3_takeoff.dir/all] 错误 2
+[5.633s] [ 85%] [32m[1mLinking CXX executable uva1_takeoff[0m
+[5.992s] [ 85%] Built target uva1_takeoff
+[5.993s] make: *** [Makefile:141：all] 错误 2
+[5.999s] Invoked command in '/home/xingxunliu/ws_sensor_combined/build/px4_ros_com' returned '2': CMAKE_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/home/xingxunliu/ws_sensor_combined/install/px4_ros_com:/opt/ros/foxy LD_LIBRARY_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:/home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/px4_ros_com -- -j16 -l16

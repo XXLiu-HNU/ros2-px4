@@ -1,0 +1,6 @@
+{
+  "package_name": "uav_interfaces",
+  "non_idl_tuples": [
+    "/home/xingxunliu/ws_sensor_combined/src/uav_interfaces:srv/UavControl.srv"
+  ]
+}

@@ -1,0 +1,6 @@
+source;share/suanfa/hook/pythonpath.ps1
+source;share/suanfa/hook/pythonpath.dsv
+source;share/suanfa/hook/pythonpath.sh
+source;share/suanfa/hook/ament_prefix_path.ps1
+source;share/suanfa/hook/ament_prefix_path.dsv
+source;share/suanfa/hook/ament_prefix_path.sh

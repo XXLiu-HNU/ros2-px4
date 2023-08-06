@@ -1,0 +1,16 @@
+[0.159s] Invoking command in '/home/xingxunliu/ws_sensor_combined/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/px4_msgs -- -j16 -l16
+[0.626s] [  0%] Built target px4_msgs__cpp
+[0.643s] [ 12%] Built target px4_msgs__rosidl_generator_c
+[0.715s] [ 24%] Built target px4_msgs__rosidl_typesupport_cpp
+[0.722s] [ 37%] Built target px4_msgs__rosidl_typesupport_introspection_cpp
+[0.730s] [ 50%] Built target px4_msgs__rosidl_typesupport_c
+[0.745s] [ 62%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp
+[0.758s] [ 75%] Built target px4_msgs__rosidl_typesupport_introspection_c
+[0.871s] [ 88%] Built target px4_msgs__rosidl_typesupport_fastrtps_c
+[0.905s] [ 88%] Built target px4_msgs
+[0.957s] [ 88%] Built target px4_msgs__py
+[1.133s] [100%] Built target px4_msgs__python
+[1.191s] [100%] Built target px4_msgs__rosidl_typesupport_introspection_c__pyext
+[1.191s] [100%] Built target px4_msgs__rosidl_typesupport_c__pyext
+[1.197s] [100%] Built target px4_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.220s] Invoked command in '/home/xingxunliu/ws_sensor_combined/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/px4_msgs -- -j16 -l16

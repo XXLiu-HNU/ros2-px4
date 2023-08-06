@@ -1,0 +1,47 @@
+[1.144s] Invoking command in '/home/xingxunliu/ws_sensor_combined/src/uav_description': PYTHONPATH=/home/xingxunliu/ws_sensor_combined/build/uav_description/prefix_override:/home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_description build --build-base /home/xingxunliu/ws_sensor_combined/build/uav_description/build install --record /home/xingxunliu/ws_sensor_combined/build/uav_description/install.log --install-scripts $base/lib/uav_description --single-version-externally-managed
+[1.276s] /home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.276s] !!
+[1.276s] 
+[1.277s]         ********************************************************************************
+[1.277s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.277s]         versions. Please use the underscore name 'script_dir' instead.
+[1.277s] 
+[1.277s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[1.277s]         or your builds will no longer be supported.
+[1.277s] 
+[1.278s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.278s]         ********************************************************************************
+[1.278s] 
+[1.278s] !!
+[1.278s]   opt = self.warn_dash_deprecation(opt, section)
+[1.372s] running egg_info
+[1.393s] writing ../../build/uav_description/uav_description.egg-info/PKG-INFO
+[1.394s] writing dependency_links to ../../build/uav_description/uav_description.egg-info/dependency_links.txt
+[1.394s] writing requirements to ../../build/uav_description/uav_description.egg-info/requires.txt
+[1.394s] writing top-level names to ../../build/uav_description/uav_description.egg-info/top_level.txt
+[1.496s] reading manifest file '../../build/uav_description/uav_description.egg-info/SOURCES.txt'
+[1.499s] writing manifest file '../../build/uav_description/uav_description.egg-info/SOURCES.txt'
+[1.499s] running build
+[1.499s] running build_py
+[1.500s] running install
+[1.500s] /home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.500s] !!
+[1.500s] 
+[1.500s]         ********************************************************************************
+[1.500s]         Please avoid running ``setup.py`` directly.
+[1.500s]         Instead, use pypa/build, pypa/installer or other
+[1.501s]         standards-based tools.
+[1.501s] 
+[1.501s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.501s]         ********************************************************************************
+[1.501s] 
+[1.501s] !!
+[1.501s]   self.initialize_options()
+[1.506s] running install_lib
+[1.526s] running install_data
+[1.539s] running install_egg_info
+[1.553s] removing '/home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages/uav_description-0.0.0-py3.8.egg-info' (and everything under it)
+[1.553s] Copying ../../build/uav_description/uav_description.egg-info to /home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages/uav_description-0.0.0-py3.8.egg-info
+[1.554s] running install_scripts
+[1.617s] writing list of installed files to '/home/xingxunliu/ws_sensor_combined/build/uav_description/install.log'
+[1.665s] Invoked command in '/home/xingxunliu/ws_sensor_combined/src/uav_description' returned '0': PYTHONPATH=/home/xingxunliu/ws_sensor_combined/build/uav_description/prefix_override:/home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_description build --build-base /home/xingxunliu/ws_sensor_combined/build/uav_description/build install --record /home/xingxunliu/ws_sensor_combined/build/uav_description/install.log --install-scripts $base/lib/uav_description --single-version-externally-managed

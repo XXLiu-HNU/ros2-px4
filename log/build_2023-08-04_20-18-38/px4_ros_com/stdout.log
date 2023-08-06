@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target tcp[0m
+[ 16%] Built target vehicle_gps_position_listener
+[ 16%] Built target uva4_takeoff
+[ 33%] Built target frame_transforms
+[ 33%] Built target offboard_control
+[ 50%] Built target uva3_takeoff
+[ 50%] Built target uva1_takeoff
+[ 66%] Built target simpleMission
+[ 66%] Built target debug_vect_advertiser
+[ 75%] Built target sensor_combined_listener
+[ 83%] Built target uva2_takeoff
+[ 91%] Built target offboard_con
+[ 95%] [32mBuilding CXX object CMakeFiles/tcp.dir/src/examples/offboard/tcp.cpp.o[0m

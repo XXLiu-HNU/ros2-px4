@@ -1,0 +1,8 @@
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/tcp.cpp:[m[K In constructor ‘[01m[KUser::User()[m[K’:
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/tcp.cpp:162:128:[m[K [01;31m[Kerror: [m[K‘[01m[Kqos[m[K’ was not declared in this scope; did you mean ‘[01m[Kcos[m[K’?
+  162 |     position_subscription1_ = this->create_subscription<px4_msgs::msg::VehicleLocalPosition>("/fmu/out/vehicle_local_position",[01;31m[Kqos[m[K,
+      |                                                                                                                                [01;31m[K^~~[m[K
+      |                                                                                                                                [32m[Kcos[m[K
+make[2]: *** [CMakeFiles/tcp.dir/build.make:63：CMakeFiles/tcp.dir/src/examples/offboard/tcp.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:451：CMakeFiles/tcp.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

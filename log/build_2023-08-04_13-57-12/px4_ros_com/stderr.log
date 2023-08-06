@@ -1,0 +1,14 @@
+In file included from [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/mission/simpleMission.cpp:29[m[K:
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/mission/drone.hpp:[m[K In member function ‘[01m[Kvoid Drone::publish_trajectory_setpoint2(float, float, float, float)[m[K’:
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/mission/drone.hpp:180:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  180 | oid Drone::publish_trajectory_setpoint2([01;35m[Kfloat x[m[K, float y, float z, float yaw)
+      |                                         [01;35m[K~~~~~~^[m[K
+
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/mission/drone.hpp:180:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  180 | ::publish_trajectory_setpoint2(float x, [01;35m[Kfloat y[m[K, float z, float yaw)
+      |                                         [01;35m[K~~~~~~^[m[K
+
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/mission/drone.hpp:180:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  180 | blish_trajectory_setpoint2(float x, float y, [01;35m[Kfloat z[m[K, float yaw)
+      |                                              [01;35m[K~~~~~~^[m[K
+

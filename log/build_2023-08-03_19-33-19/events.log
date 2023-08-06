@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000483] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.001064] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.001189] (uav_description) JobQueued: {'identifier': 'uav_description', 'dependencies': OrderedDict()}
+[0.001319] (uav_description) JobStarted: {'identifier': 'uav_description'}
+[0.099487] (-) TimerEvent: {}
+[0.200075] (-) TimerEvent: {}
+[0.300666] (-) TimerEvent: {}
+[0.401208] (-) TimerEvent: {}
+[0.501657] (-) TimerEvent: {}
+[0.602165] (-) TimerEvent: {}
+[0.702568] (-) TimerEvent: {}
+[0.803066] (-) TimerEvent: {}
+[0.827165] (uav_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/uav_description', 'build', '--build-base', '/home/xingxunliu/ws_sensor_combined/build/uav_description/build', 'install', '--record', '/home/xingxunliu/ws_sensor_combined/build/uav_description/install.log', '--install-scripts', '$base/lib/uav_description', '--single-version-externally-managed'], 'cwd': '/home/xingxunliu/ws_sensor_combined/src/uav_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh:en_US:en', 'USER': 'xingxunliu', 'LC_TIME': 'zh_CN.UTF-8', 'SSH_AGENT_PID': '1384', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib:/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'fcitx', 'HOME': '/home/xingxunliu', 'OLDPWD': '/home/xingxunliu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'MANAGERPID': '1066', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3702', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/xingxunliu/ws_sensor_combined/install', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'xingxunliu', 'JOURNAL_STREAM': '8:24530', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'xingxunliu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/xingxunliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xingxunliu/.fishros/bin/', 'SESSION_MANAGER': 'local/xxl:@/tmp/.ICE-unix/1468,unix/xxl:/tmp/.ICE-unix/1468', 'INVOCATION_ID': '4d53d79f78fa49c4892614dfe04112a8', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/xingxunliu/ws_sensor_combined/install/px4_ros_com:/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:776de3a6-5b36-4ada-8225-f85f4429a1d8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/xingxunliu/ws_sensor_combined/build/uav_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/xingxunliu/ws_sensor_combined/build/uav_description/prefix_override:/home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages:/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/xingxunliu/ws_sensor_combined/install/px4_ros_com:/home/xingxunliu/ws_sensor_combined/install/px4_msgs'}, 'shell': False}
+[0.903283] (-) TimerEvent: {}
+[0.937410] (uav_description) StderrLine: {'line': b'/home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[0.937666] (uav_description) StderrLine: {'line': b'!!\n'}
+[0.937783] (uav_description) StderrLine: {'line': b'\n'}
+[0.937921] (uav_description) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.938024] (uav_description) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[0.938127] (uav_description) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[0.938231] (uav_description) StderrLine: {'line': b'\n'}
+[0.938332] (uav_description) StderrLine: {'line': b'        By 2023-Sep-26, you need to update your project and remove deprecated calls\n'}
+[0.938434] (uav_description) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[0.938535] (uav_description) StderrLine: {'line': b'\n'}
+[0.938636] (uav_description) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[0.938736] (uav_description) StderrLine: {'line': b'        ********************************************************************************\n'}
+[0.938837] (uav_description) StderrLine: {'line': b'\n'}
+[0.938936] (uav_description) StderrLine: {'line': b'!!\n'}
+[0.939037] (uav_description) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[1.002547] (uav_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.002873] (uav_description) StdoutLine: {'line': b'creating ../../build/uav_description/uav_description.egg-info\n'}
+[1.003347] (-) TimerEvent: {}
+[1.013457] (uav_description) StdoutLine: {'line': b'writing ../../build/uav_description/uav_description.egg-info/PKG-INFO\n'}
+[1.013819] (uav_description) StdoutLine: {'line': b'writing dependency_links to ../../build/uav_description/uav_description.egg-info/dependency_links.txt\n'}
+[1.013990] (uav_description) StdoutLine: {'line': b'writing requirements to ../../build/uav_description/uav_description.egg-info/requires.txt\n'}
+[1.014164] (uav_description) StdoutLine: {'line': b'writing top-level names to ../../build/uav_description/uav_description.egg-info/top_level.txt\n'}
+[1.085117] (uav_description) StdoutLine: {'line': b"writing manifest file '../../build/uav_description/uav_description.egg-info/SOURCES.txt'\n"}
+[1.103719] (-) TimerEvent: {}
+[1.114465] (uav_description) StdoutLine: {'line': b"reading manifest file '../../build/uav_description/uav_description.egg-info/SOURCES.txt'\n"}
+[1.115204] (uav_description) StdoutLine: {'line': b"writing manifest file '../../build/uav_description/uav_description.egg-info/SOURCES.txt'\n"}
+[1.115534] (uav_description) StdoutLine: {'line': b'running build\n'}
+[1.115730] (uav_description) StdoutLine: {'line': b'running build_py\n'}
+[1.115870] (uav_description) StdoutLine: {'line': b'creating /home/xingxunliu/ws_sensor_combined/build/uav_description/build\n'}
+[1.116097] (uav_description) StdoutLine: {'line': b'creating /home/xingxunliu/ws_sensor_combined/build/uav_description/build/lib\n'}
+[1.116232] (uav_description) StdoutLine: {'line': b'creating /home/xingxunliu/ws_sensor_combined/build/uav_description/build/lib/uav_description\n'}
+[1.116354] (uav_description) StdoutLine: {'line': b'copying uav_description/__init__.py -> /home/xingxunliu/ws_sensor_combined/build/uav_description/build/lib/uav_description\n'}
+[1.116481] (uav_description) StdoutLine: {'line': b'running install\n'}
+[1.116730] (uav_description) StderrLine: {'line': b'/home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.116918] (uav_description) StderrLine: {'line': b'!!\n'}
+[1.117048] (uav_description) StderrLine: {'line': b'\n'}
+[1.117172] (uav_description) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.117293] (uav_description) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.117408] (uav_description) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.117523] (uav_description) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.117637] (uav_description) StderrLine: {'line': b'\n'}
+[1.117750] (uav_description) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.117891] (uav_description) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.118009] (uav_description) StderrLine: {'line': b'\n'}
+[1.118124] (uav_description) StderrLine: {'line': b'!!\n'}
+[1.118237] (uav_description) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.121523] (uav_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.132723] (uav_description) StdoutLine: {'line': b'creating /home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages/uav_description\n'}
+[1.132980] (uav_description) StdoutLine: {'line': b'copying /home/xingxunliu/ws_sensor_combined/build/uav_description/build/lib/uav_description/__init__.py -> /home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages/uav_description\n'}
+[1.133183] (uav_description) StdoutLine: {'line': b'byte-compiling /home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages/uav_description/__init__.py to __init__.cpython-38.pyc\n'}
+[1.133366] (uav_description) StdoutLine: {'line': b'running install_data\n'}
+[1.144981] (uav_description) StdoutLine: {'line': b'creating /home/xingxunliu/ws_sensor_combined/install/uav_description/share/ament_index\n'}
+[1.145325] (uav_description) StdoutLine: {'line': b'creating /home/xingxunliu/ws_sensor_combined/install/uav_description/share/ament_index/resource_index\n'}
+[1.145465] (uav_description) StdoutLine: {'line': b'creating /home/xingxunliu/ws_sensor_combined/install/uav_description/share/ament_index/resource_index/packages\n'}
+[1.145643] (uav_description) StdoutLine: {'line': b'copying resource/uav_description -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/ament_index/resource_index/packages\n'}
+[1.145759] (uav_description) StdoutLine: {'line': b'copying package.xml -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description\n'}
+[1.145899] (uav_description) StdoutLine: {'line': b'creating /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/launch\n'}
+[1.146012] (uav_description) StdoutLine: {'line': b'copying launch/uav_rviz2.launch.py -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/launch\n'}
+[1.146123] (uav_description) StdoutLine: {'line': b'creating /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/urdf\n'}
+[1.146233] (uav_description) StdoutLine: {'line': b'copying urdf/iris.sdf.jinja -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/urdf\n'}
+[1.146344] (uav_description) StdoutLine: {'line': b'copying urdf/model.config -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/urdf\n'}
+[1.146642] (uav_description) StdoutLine: {'line': b'copying urdf/iris.sdf.last_generated -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/urdf\n'}
+[1.146814] (uav_description) StdoutLine: {'line': b'copying urdf/iris.sdf -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/urdf\n'}
+[1.146949] (uav_description) StdoutLine: {'line': b'copying urdf/isirsss.urdf -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/urdf\n'}
+[1.147086] (uav_description) StdoutLine: {'line': b'creating /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/meshes\n'}
+[1.147222] (uav_description) StdoutLine: {'line': b'copying meshes/iris_prop_cw.dae -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/meshes\n'}
+[1.147359] (uav_description) StdoutLine: {'line': b'copying meshes/iris_prop_ccw.dae -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/meshes\n'}
+[1.147481] (uav_description) StdoutLine: {'line': b'copying meshes/iris.stl -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/meshes\n'}
+[1.149369] (uav_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.161223] (uav_description) StdoutLine: {'line': b'Copying ../../build/uav_description/uav_description.egg-info to /home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages/uav_description-0.0.0-py3.8.egg-info\n'}
+[1.161720] (uav_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.203948] (-) TimerEvent: {}
+[1.206872] (uav_description) StdoutLine: {'line': b"writing list of installed files to '/home/xingxunliu/ws_sensor_combined/build/uav_description/install.log'\n"}
+[1.239572] (uav_description) CommandEnded: {'returncode': 0}
+[1.260501] (uav_description) JobEnded: {'identifier': 'uav_description', 'rc': 0}
+[1.261511] (-) EventReactorShutdown: {}

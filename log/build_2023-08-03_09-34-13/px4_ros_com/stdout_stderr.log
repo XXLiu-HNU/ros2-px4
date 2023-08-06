@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target uva1_takeoff[0m
+[  5%] [32m[1mLinking CXX executable uva3_takeoff[0m
+[ 10%] [32m[1mLinking CXX executable uva2_takeoff[0m
+[ 15%] [32m[1mLinking CXX executable uva4_takeoff[0m
+[ 35%] Built target frame_transforms
+[ 35%] Built target offboard_control
+[ 45%] Built target vehicle_gps_position_listener
+[ 65%] Built target sensor_combined_listener
+[ 65%] Built target debug_vect_advertiser
+[ 75%] Built target offboard_con
+[ 80%] [32mBuilding CXX object CMakeFiles/uva1_takeoff.dir/src/examples/offboard/uva1_takeoff.cpp.o[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/uva2_takeoff.dir/build.make:136：uva2_takeoff] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:312：CMakeFiles/uva2_takeoff.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/uva4_takeoff.dir/build.make:136：uva4_takeoff] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:123：CMakeFiles/uva4_takeoff.dir/all] 错误 2
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/uva3_takeoff.dir/build.make:136：uva3_takeoff] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:96：CMakeFiles/uva3_takeoff.dir/all] 错误 2
+[ 85%] [32m[1mLinking CXX executable uva1_takeoff[0m
+[ 85%] Built target uva1_takeoff
+make: *** [Makefile:141：all] 错误 2

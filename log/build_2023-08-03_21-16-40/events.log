@@ -1,0 +1,262 @@
+[0.000000] (-) TimerEvent: {}
+[0.001435] (-) JobUnselected: {'identifier': 'px4_msgs'}
+[0.001569] (-) JobUnselected: {'identifier': 'px4_ros_com'}
+[0.001617] (-) JobUnselected: {'identifier': 'suanfa'}
+[0.001657] (uav_interfaces) JobQueued: {'identifier': 'uav_interfaces', 'dependencies': OrderedDict()}
+[0.001698] (uav_interfaces) JobStarted: {'identifier': 'uav_interfaces'}
+[0.012747] (uav_interfaces) JobProgress: {'identifier': 'uav_interfaces', 'progress': 'cmake'}
+[0.014012] (uav_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/xingxunliu/ws_sensor_combined/src/uav_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/xingxunliu/ws_sensor_combined/install/uav_interfaces'], 'cwd': '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:15732/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'xingxunliu'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:8080/'), ('SSH_AGENT_PID', '1384'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/xingxunliu'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1066'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9f523ff4ce1ec4c49b023a264cb9006'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:15732/'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xingxunliu'), ('ALL_PROXY', 'socks://127.0.0.1:8080/'), ('http_proxy', 'http://127.0.0.1:15732/'), ('JOURNAL_STREAM', '8:21354'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xingxunliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/xingxunliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xingxunliu/.fishros/bin/'), ('SESSION_MANAGER', 'local/xxl:@/tmp/.ICE-unix/1468,unix/xxl:/tmp/.ICE-unix/1468'), ('INVOCATION_ID', 'daf72d5419964b4a911877475ccf2a39'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:15732/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5e057319_8348_421e_aeb0_39e46df61933'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.768'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('FTP_PROXY', 'http://127.0.0.1:15732/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9f523ff4ce1ec4c49b023a264cb9006'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:15732/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.044843] (uav_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.069579] (uav_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099749] (-) TimerEvent: {}
+[0.200209] (-) TimerEvent: {}
+[0.208953] (uav_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.225548] (uav_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.228493] (uav_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300379] (-) TimerEvent: {}
+[0.373959] (uav_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400545] (-) TimerEvent: {}
+[0.454352] (uav_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.486146] (uav_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.500676] (-) TimerEvent: {}
+[0.601055] (-) TimerEvent: {}
+[0.685681] (uav_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[0.701219] (-) TimerEvent: {}
+[0.801843] (-) TimerEvent: {}
+[0.902258] (-) TimerEvent: {}
+[0.941096] (uav_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.002387] (-) TimerEvent: {}
+[1.037590] (uav_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.058889] (uav_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.060652] (uav_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.096260] (uav_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.096508] (uav_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.096621] (uav_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.096744] (uav_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.102477] (-) TimerEvent: {}
+[1.123054] (uav_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.202601] (-) TimerEvent: {}
+[1.287785] (uav_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.302738] (-) TimerEvent: {}
+[1.308126] (uav_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.309313] (uav_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.309988] (uav_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.313533] (uav_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.363222] (uav_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[1.365629] (uav_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/xingxunliu/ws_sensor_combined/build/uav_interfaces\n'}
+[1.375724] (uav_interfaces) CommandEnded: {'returncode': 0}
+[1.376753] (uav_interfaces) JobProgress: {'identifier': 'uav_interfaces', 'progress': 'build'}
+[1.377958] (uav_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:15732/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'xingxunliu'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:8080/'), ('SSH_AGENT_PID', '1384'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/xingxunliu'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1066'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9f523ff4ce1ec4c49b023a264cb9006'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:15732/'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xingxunliu'), ('ALL_PROXY', 'socks://127.0.0.1:8080/'), ('http_proxy', 'http://127.0.0.1:15732/'), ('JOURNAL_STREAM', '8:21354'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xingxunliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/xingxunliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xingxunliu/.fishros/bin/'), ('SESSION_MANAGER', 'local/xxl:@/tmp/.ICE-unix/1468,unix/xxl:/tmp/.ICE-unix/1468'), ('INVOCATION_ID', 'daf72d5419964b4a911877475ccf2a39'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:15732/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5e057319_8348_421e_aeb0_39e46df61933'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.768'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('FTP_PROXY', 'http://127.0.0.1:15732/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9f523ff4ce1ec4c49b023a264cb9006'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:15732/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[1.402946] (-) TimerEvent: {}
+[1.442164] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__cpp\x1b[0m\n'}
+[1.442537] (uav_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.456123] (uav_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.503064] (-) TimerEvent: {}
+[1.603403] (-) TimerEvent: {}
+[1.685350] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__rosidl_generator_c\x1b[0m\n'}
+[1.697161] (uav_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/uav_interfaces__rosidl_generator_c.dir/rosidl_generator_c/uav_interfaces/srv/detail/uav_control__functions.c.o\x1b[0m\n'}
+[1.698053] (uav_interfaces) StdoutLine: {'line': b'[  9%] Built target uav_interfaces__cpp\n'}
+[1.703568] (-) TimerEvent: {}
+[1.714124] (uav_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.717751] (uav_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.720560] (uav_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.772872] (uav_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libuav_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.803721] (-) TimerEvent: {}
+[1.823116] (uav_interfaces) StdoutLine: {'line': b'[ 22%] Built target uav_interfaces__rosidl_generator_c\n'}
+[1.839387] (uav_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.841488] (uav_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.903878] (-) TimerEvent: {}
+[1.996676] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.004060] (-) TimerEvent: {}
+[2.014535] (uav_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/uav_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/uav_interfaces/srv/uav_control__type_support.cpp.o\x1b[0m\n'}
+[2.022896] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.033880] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.047730] (uav_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/uav_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/uav_interfaces/srv/detail/dds_fastrtps/uav_control__type_support.cpp.o\x1b[0m\n'}
+[2.056531] (uav_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/uav_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/uav_interfaces/srv/detail/uav_control__type_support.cpp.o\x1b[0m\n'}
+[2.104242] (-) TimerEvent: {}
+[2.145197] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[2.150539] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.167606] (uav_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/uav_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/uav_interfaces/srv/uav_control__type_support.cpp.o\x1b[0m\n'}
+[2.172999] (uav_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/uav_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/uav_interfaces/srv/detail/uav_control__type_support.c.o\x1b[0m\n'}
+[2.204408] (-) TimerEvent: {}
+[2.220122] (uav_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libuav_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.223836] (uav_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libuav_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.281203] (uav_interfaces) StdoutLine: {'line': b'[ 51%] Built target uav_interfaces__rosidl_typesupport_c\n'}
+[2.281974] (uav_interfaces) StdoutLine: {'line': b'[ 51%] Built target uav_interfaces__rosidl_typesupport_introspection_c\n'}
+[2.304574] (-) TimerEvent: {}
+[2.352822] (uav_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libuav_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.365192] (uav_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libuav_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.404734] (-) TimerEvent: {}
+[2.412955] (uav_interfaces) StdoutLine: {'line': b'[ 58%] Built target uav_interfaces__rosidl_typesupport_cpp\n'}
+[2.424181] (uav_interfaces) StdoutLine: {'line': b'[ 58%] Built target uav_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.504689] (uav_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libuav_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.504945] (-) TimerEvent: {}
+[2.605209] (-) TimerEvent: {}
+[2.620321] (uav_interfaces) StdoutLine: {'line': b'[ 61%] Built target uav_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[2.631466] (uav_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.705351] (-) TimerEvent: {}
+[2.805672] (-) TimerEvent: {}
+[2.851055] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.873061] (uav_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/uav_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/uav_interfaces/srv/detail/uav_control__type_support_c.cpp.o\x1b[0m\n'}
+[2.906036] (-) TimerEvent: {}
+[3.006464] (-) TimerEvent: {}
+[3.106803] (-) TimerEvent: {}
+[3.186067] (uav_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libuav_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.206942] (-) TimerEvent: {}
+[3.296824] (uav_interfaces) StdoutLine: {'line': b'[ 70%] Built target uav_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.307094] (-) TimerEvent: {}
+[3.311207] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces\x1b[0m\n'}
+[3.327270] (uav_interfaces) StdoutLine: {'line': b'[ 70%] Built target uav_interfaces\n'}
+[3.344685] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__py\x1b[0m\n'}
+[3.363903] (uav_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.407219] (-) TimerEvent: {}
+[3.507548] (-) TimerEvent: {}
+[3.607881] (-) TimerEvent: {}
+[3.708241] (-) TimerEvent: {}
+[3.803550] (uav_interfaces) StdoutLine: {'line': b'[ 74%] Built target uav_interfaces__py\n'}
+[3.808391] (-) TimerEvent: {}
+[3.819117] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__python\x1b[0m\n'}
+[3.845939] (uav_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/uav_interfaces__python.dir/rosidl_generator_py/uav_interfaces/srv/_uav_control_s.c.o\x1b[0m\n'}
+[3.908544] (-) TimerEvent: {}
+[3.940848] (uav_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/uav_interfaces/libuav_interfaces__python.so\x1b[0m\n'}
+[4.000517] (uav_interfaces) StdoutLine: {'line': b'[ 80%] Built target uav_interfaces__python\n'}
+[4.008733] (-) TimerEvent: {}
+[4.013716] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.016726] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.017046] (uav_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target uav_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.034314] (uav_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/uav_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/uav_interfaces/_uav_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.039773] (uav_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/uav_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/uav_interfaces/_uav_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.043014] (uav_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/uav_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/uav_interfaces/_uav_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.108884] (-) TimerEvent: {}
+[4.132756] (uav_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/uav_interfaces/uav_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.160525] (uav_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/uav_interfaces/uav_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.169428] (uav_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/uav_interfaces/uav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.178786] (uav_interfaces) StdoutLine: {'line': b'[100%] Built target uav_interfaces__rosidl_typesupport_c__pyext\n'}
+[4.209024] (-) TimerEvent: {}
+[4.221496] (uav_interfaces) StdoutLine: {'line': b'[100%] Built target uav_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.249404] (uav_interfaces) StdoutLine: {'line': b'[100%] Built target uav_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.261473] (uav_interfaces) CommandEnded: {'returncode': 0}
+[4.309182] (-) TimerEvent: {}
+[4.336184] (uav_interfaces) JobProgress: {'identifier': 'uav_interfaces', 'progress': 'install'}
+[4.355354] (uav_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces'], 'cwd': '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:15732/'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'xingxunliu'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:8080/'), ('SSH_AGENT_PID', '1384'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/xingxunliu'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1066'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9f523ff4ce1ec4c49b023a264cb9006'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:15732/'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xingxunliu'), ('ALL_PROXY', 'socks://127.0.0.1:8080/'), ('http_proxy', 'http://127.0.0.1:15732/'), ('JOURNAL_STREAM', '8:21354'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xingxunliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/xingxunliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xingxunliu/.fishros/bin/'), ('SESSION_MANAGER', 'local/xxl:@/tmp/.ICE-unix/1468,unix/xxl:/tmp/.ICE-unix/1468'), ('INVOCATION_ID', 'daf72d5419964b4a911877475ccf2a39'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:15732/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5e057319_8348_421e_aeb0_39e46df61933'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.768'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('FTP_PROXY', 'http://127.0.0.1:15732/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9f523ff4ce1ec4c49b023a264cb9006'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('HTTP_PROXY', 'http://127.0.0.1:15732/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[4.366873] (uav_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.367303] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/ament_index/resource_index/rosidl_interfaces/uav_interfaces\n'}
+[4.367484] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces\n'}
+[4.367643] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv\n'}
+[4.367797] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail\n'}
+[4.367950] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__functions.c\n'}
+[4.368348] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__functions.h\n'}
+[4.368536] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__type_support.h\n'}
+[4.368696] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__struct.h\n'}
+[4.368850] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/uav_control.h\n'}
+[4.369003] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg\n'}
+[4.369163] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.369315] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/library_path.sh\n'}
+[4.369467] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/library_path.dsv\n'}
+[4.369618] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_generator_c.so\n'}
+[4.369902] (uav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_generator_c.so" to ""\n'}
+[4.370059] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces\n'}
+[4.370227] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv\n'}
+[4.370403] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail\n'}
+[4.370555] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__rosidl_typesupport_fastrtps_c.h\n'}
+[4.370715] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg\n'}
+[4.370869] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.371161] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.371320] (uav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.371479] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces\n'}
+[4.371633] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv\n'}
+[4.371787] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail\n'}
+[4.371937] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.372089] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/dds_fastrtps\n'}
+[4.372241] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg\n'}
+[4.372394] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.372547] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.372757] (uav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.372906] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces\n'}
+[4.373050] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv\n'}
+[4.373194] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail\n'}
+[4.373339] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__rosidl_typesupport_introspection_c.h\n'}
+[4.373484] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__type_support.c\n'}
+[4.373646] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg\n'}
+[4.373811] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.373957] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.374102] (uav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.374277] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_c.so\n'}
+[4.374435] (uav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.374580] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces\n'}
+[4.374724] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv\n'}
+[4.374867] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail\n'}
+[4.375010] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__type_support.hpp\n'}
+[4.375168] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__struct.hpp\n'}
+[4.375313] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__builder.hpp\n'}
+[4.375456] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__traits.hpp\n'}
+[4.375599] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/uav_control.hpp\n'}
+[4.375755] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg\n'}
+[4.375901] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.376045] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces\n'}
+[4.376189] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv\n'}
+[4.376333] (uav_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail\n'}
+[4.376478] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__type_support.cpp\n'}
+[4.376622] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.376767] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.376912] (uav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.377067] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_cpp.so\n'}
+[4.377211] (uav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.377355] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/pythonpath.sh\n'}
+[4.377506] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/pythonpath.dsv\n'}
+[4.377652] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/__init__.py\n'}
+[4.409060] (uav_interfaces) StdoutLine: {'line': b"Compiling '/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/__init__.py'...\n"}
+[4.409314] (-) TimerEvent: {}
+[4.412603] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/srv\n'}
+[4.412963] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/srv/_uav_control_s.c\n'}
+[4.413145] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/srv/_uav_control.py\n'}
+[4.413254] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/srv/__init__.py\n'}
+[4.413477] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/uav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.414212] (uav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/uav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.414732] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/uav_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.415510] (uav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/uav_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.415983] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/uav_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[4.416709] (uav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/uav_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[4.416949] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__python.so\n'}
+[4.417470] (uav_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__python.so" to ""\n'}
+[4.417776] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/srv/UavControl.idl\n'}
+[4.417996] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/srv/UavControl.srv\n'}
+[4.418263] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/srv/UavControl_Request.msg\n'}
+[4.418519] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/srv/UavControl_Response.msg\n'}
+[4.418818] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/ament_index/resource_index/package_run_dependencies/uav_interfaces\n'}
+[4.419092] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/ament_index/resource_index/parent_prefix_path/uav_interfaces\n'}
+[4.419325] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/ament_prefix_path.sh\n'}
+[4.419593] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/ament_prefix_path.dsv\n'}
+[4.419820] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/path.sh\n'}
+[4.420043] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/path.dsv\n'}
+[4.420276] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/local_setup.bash\n'}
+[4.420526] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/local_setup.sh\n'}
+[4.420754] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/local_setup.zsh\n'}
+[4.420988] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/local_setup.dsv\n'}
+[4.421229] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/package.dsv\n'}
+[4.421585] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/ament_index/resource_index/packages/uav_interfaces\n'}
+[4.421930] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.422204] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.422744] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.423042] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.423438] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.423777] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.424129] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.424316] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.424503] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.424705] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.424890] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.425123] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.425361] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.425576] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.425775] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.425943] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.426123] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.426349] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.426596] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfacesConfig.cmake\n'}
+[4.426800] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfacesConfig-version.cmake\n'}
+[4.426978] (uav_interfaces) StdoutLine: {'line': b'-- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/package.xml\n'}
+[4.430075] (uav_interfaces) CommandEnded: {'returncode': 0}
+[4.510885] (-) TimerEvent: {}
+[4.523449] (uav_interfaces) JobEnded: {'identifier': 'uav_interfaces', 'rc': 0}
+[4.524434] (-) EventReactorShutdown: {}

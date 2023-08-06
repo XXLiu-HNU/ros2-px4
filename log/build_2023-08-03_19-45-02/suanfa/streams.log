@@ -1,0 +1,68 @@
+[1.210s] Invoking command in '/home/xingxunliu/ws_sensor_combined/src/suanfa': PYTHONPATH=/home/xingxunliu/ws_sensor_combined/build/suanfa/prefix_override:/home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/suanfa build --build-base /home/xingxunliu/ws_sensor_combined/build/suanfa/build install --record /home/xingxunliu/ws_sensor_combined/build/suanfa/install.log --install-scripts $base/lib/suanfa --single-version-externally-managed
+[1.357s] /home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.357s] !!
+[1.357s] 
+[1.357s]         ********************************************************************************
+[1.357s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.358s]         versions. Please use the underscore name 'script_dir' instead.
+[1.358s] 
+[1.358s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[1.358s]         or your builds will no longer be supported.
+[1.358s] 
+[1.358s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.358s]         ********************************************************************************
+[1.358s] 
+[1.359s] !!
+[1.359s]   opt = self.warn_dash_deprecation(opt, section)
+[1.454s] running egg_info
+[1.454s] creating ../../build/suanfa/suanfa.egg-info
+[1.468s] writing ../../build/suanfa/suanfa.egg-info/PKG-INFO
+[1.469s] writing dependency_links to ../../build/suanfa/suanfa.egg-info/dependency_links.txt
+[1.469s] writing entry points to ../../build/suanfa/suanfa.egg-info/entry_points.txt
+[1.469s] writing requirements to ../../build/suanfa/suanfa.egg-info/requires.txt
+[1.469s] writing top-level names to ../../build/suanfa/suanfa.egg-info/top_level.txt
+[1.561s] writing manifest file '../../build/suanfa/suanfa.egg-info/SOURCES.txt'
+[1.604s] reading manifest file '../../build/suanfa/suanfa.egg-info/SOURCES.txt'
+[1.605s] writing manifest file '../../build/suanfa/suanfa.egg-info/SOURCES.txt'
+[1.605s] running build
+[1.605s] running build_py
+[1.605s] creating /home/xingxunliu/ws_sensor_combined/build/suanfa/build
+[1.606s] creating /home/xingxunliu/ws_sensor_combined/build/suanfa/build/lib
+[1.606s] creating /home/xingxunliu/ws_sensor_combined/build/suanfa/build/lib/suanfa
+[1.606s] copying suanfa/__init__.py -> /home/xingxunliu/ws_sensor_combined/build/suanfa/build/lib/suanfa
+[1.606s] copying suanfa/1.py -> /home/xingxunliu/ws_sensor_combined/build/suanfa/build/lib/suanfa
+[1.607s] copying suanfa/calculate.py -> /home/xingxunliu/ws_sensor_combined/build/suanfa/build/lib/suanfa
+[1.607s] running install
+[1.607s] /home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.607s] !!
+[1.607s] 
+[1.607s]         ********************************************************************************
+[1.608s]         Please avoid running ``setup.py`` directly.
+[1.608s]         Instead, use pypa/build, pypa/installer or other
+[1.608s]         standards-based tools.
+[1.608s] 
+[1.608s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.608s]         ********************************************************************************
+[1.608s] 
+[1.609s] !!
+[1.609s]   self.initialize_options()
+[1.619s] running install_lib
+[1.637s] creating /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa
+[1.637s] copying /home/xingxunliu/ws_sensor_combined/build/suanfa/build/lib/suanfa/__init__.py -> /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa
+[1.638s] copying /home/xingxunliu/ws_sensor_combined/build/suanfa/build/lib/suanfa/1.py -> /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa
+[1.638s] copying /home/xingxunliu/ws_sensor_combined/build/suanfa/build/lib/suanfa/calculate.py -> /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa
+[1.638s] byte-compiling /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa/__init__.py to __init__.cpython-38.pyc
+[1.638s] byte-compiling /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa/1.py to 1.cpython-38.pyc
+[1.639s] byte-compiling /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa/calculate.py to calculate.cpython-38.pyc
+[1.640s] running install_data
+[1.654s] creating /home/xingxunliu/ws_sensor_combined/install/suanfa/share/ament_index
+[1.654s] creating /home/xingxunliu/ws_sensor_combined/install/suanfa/share/ament_index/resource_index
+[1.655s] creating /home/xingxunliu/ws_sensor_combined/install/suanfa/share/ament_index/resource_index/packages
+[1.655s] copying resource/suanfa -> /home/xingxunliu/ws_sensor_combined/install/suanfa/share/ament_index/resource_index/packages
+[1.655s] copying package.xml -> /home/xingxunliu/ws_sensor_combined/install/suanfa/share/suanfa
+[1.655s] running install_egg_info
+[1.669s] Copying ../../build/suanfa/suanfa.egg-info to /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa-0.0.0-py3.8.egg-info
+[1.670s] running install_scripts
+[1.732s] Installing suanfa_node script to /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/suanfa
+[1.733s] writing list of installed files to '/home/xingxunliu/ws_sensor_combined/build/suanfa/install.log'
+[1.801s] Invoked command in '/home/xingxunliu/ws_sensor_combined/src/suanfa' returned '0': PYTHONPATH=/home/xingxunliu/ws_sensor_combined/build/suanfa/prefix_override:/home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/suanfa build --build-base /home/xingxunliu/ws_sensor_combined/build/suanfa/build install --record /home/xingxunliu/ws_sensor_combined/build/suanfa/install.log --install-scripts $base/lib/suanfa --single-version-externally-managed

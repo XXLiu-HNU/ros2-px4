@@ -1,0 +1,3 @@
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/tcp.cpp:272:31:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+  272 |     request->some_parameter = /* 设置参数的值 ;
+      |                                

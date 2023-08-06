@@ -1,0 +1,49 @@
+[0.491s] Invoking command in '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/uav_interfaces -- -j16 -l16
+[0.538s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.575s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.789s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.814s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.818s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.016s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.223s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.265s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.511s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[1.511s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.511s]   uav_interfaces --arguments-file
+[1.512s]   /home/xingxunliu/ws_sensor_combined/build/uav_interfaces/rosidl_adapter__arguments__uav_interfaces.json
+[1.512s]   --output-dir
+[1.512s]   /home/xingxunliu/ws_sensor_combined/build/uav_interfaces/rosidl_adapter/uav_interfaces
+[1.512s]   --output-file
+[1.512s]   /home/xingxunliu/ws_sensor_combined/build/uav_interfaces/rosidl_adapter/uav_interfaces.idls)
+[1.512s]   returned error code 1:
+[1.513s] 
+[1.513s]   Error with: uav_interfaces UavControl ---
+[1.513s] 
+[1.513s]   Traceback (most recent call last):
+[1.514s] 
+[1.514s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[1.514s]       return _run_code(code, main_globals, None,
+[1.514s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[1.515s]       exec(code, run_globals)
+[1.515s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.515s]       sys.exit(main())
+[1.515s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.515s]       abs_idl_file = convert_to_idl(
+[1.515s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.516s]       return convert_msg_to_idl(
+[1.516s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.516s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.516s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 506, in parse_message_string
+[1.516s]       raise InvalidFieldDefinition(line)
+[1.517s] 
+[1.517s]   rosidl_adapter.parser.InvalidFieldDefinition: ---
+[1.517s] 
+[1.517s] Call Stack (most recent call first):
+[1.517s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.517s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[1.518s] 
+[1.518s] 
+[1.518s] -- Configuring incomplete, errors occurred!
+[1.518s] See also "/home/xingxunliu/ws_sensor_combined/build/uav_interfaces/CMakeFiles/CMakeOutput.log".
+[1.525s] make: *** [Makefile:748：cmake_check_build_system] 错误 1
+[1.528s] Invoked command in '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/uav_interfaces -- -j16 -l16

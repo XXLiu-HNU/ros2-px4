@@ -1,0 +1,7 @@
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_con.cpp:[m[K In lambda function:
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_con.cpp:142:69:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’} and ‘[01m[K<unresolved overloaded function type>[m[K’ to binary ‘[01m[Koperator<<[m[K’
+  142 | rray[0],my_double_array[1], my_double_array[2]<<endl;
+
+make[2]: *** [CMakeFiles/offboard_con.dir/build.make:63：CMakeFiles/offboard_con.dir/src/examples/offboard/offboard_con.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:223：CMakeFiles/offboard_con.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

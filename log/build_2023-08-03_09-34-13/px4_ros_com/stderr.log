@@ -1,0 +1,17 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/uva2_takeoff.dir/build.make:136：uva2_takeoff] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:312：CMakeFiles/uva2_takeoff.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make[2]: *** [CMakeFiles/uva4_takeoff.dir/build.make:136：uva4_takeoff] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:123：CMakeFiles/uva4_takeoff.dir/all] 错误 2
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x24): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/uva3_takeoff.dir/build.make:136：uva3_takeoff] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:96：CMakeFiles/uva3_takeoff.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

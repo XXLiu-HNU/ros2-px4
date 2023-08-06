@@ -1,0 +1,2 @@
+Invoking command in '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/uav_interfaces -- -j16 -l16
+Invoked command in '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/uav_interfaces -- -j16 -l16

@@ -1,0 +1,21 @@
+[0.428s] Invoking command in '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/uav_interfaces -- -j16 -l16
+[0.476s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.517s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.517s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.736s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.763s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.768s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.946s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.158s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.168s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[1.168s]   rosidl_generate_interfaces() the passed file 'srv/UavControl.srv' doesn't
+[1.168s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.169s]   '/home/xingxunliu/ws_sensor_combined/src/uav_interfaces'
+[1.169s] Call Stack (most recent call first):
+[1.169s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[1.169s] 
+[1.169s] 
+[1.170s] -- Configuring incomplete, errors occurred!
+[1.170s] See also "/home/xingxunliu/ws_sensor_combined/build/uav_interfaces/CMakeFiles/CMakeOutput.log".
+[1.179s] make: *** [Makefile:748：cmake_check_build_system] 错误 1
+[1.181s] Invoked command in '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/uav_interfaces -- -j16 -l16

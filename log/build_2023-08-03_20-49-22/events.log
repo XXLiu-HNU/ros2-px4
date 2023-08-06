@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.001334] (px4_msgs) JobQueued: {'identifier': 'px4_msgs', 'dependencies': OrderedDict()}
+[0.001753] (suanfa) JobQueued: {'identifier': 'suanfa', 'dependencies': OrderedDict()}
+[0.001810] (uav_description) JobQueued: {'identifier': 'uav_description', 'dependencies': OrderedDict()}
+[0.001848] (uav_interfaces) JobQueued: {'identifier': 'uav_interfaces', 'dependencies': OrderedDict()}
+[0.001885] (px4_ros_com) JobQueued: {'identifier': 'px4_ros_com', 'dependencies': OrderedDict([('px4_msgs', '/home/xingxunliu/ws_sensor_combined/install/px4_msgs')])}
+[0.001935] (px4_msgs) JobStarted: {'identifier': 'px4_msgs'}
+[0.040339] (suanfa) JobStarted: {'identifier': 'suanfa'}
+[0.053390] (uav_description) JobStarted: {'identifier': 'uav_description'}
+[0.098917] (-) TimerEvent: {}
+[0.143761] (uav_interfaces) JobStarted: {'identifier': 'uav_interfaces'}
+[0.155545] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'cmake'}
+[0.156219] (px4_msgs) JobProgress: {'identifier': 'px4_msgs', 'progress': 'build'}
+[0.156764] (px4_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xingxunliu/ws_sensor_combined/build/px4_msgs', '--', '-j16', '-l16'], 'cwd': '/home/xingxunliu/ws_sensor_combined/build/px4_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'xingxunliu'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1384'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/xingxunliu'), ('OLDPWD', '/home/xingxunliu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '76276'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xingxunliu'), ('JOURNAL_STREAM', '8:24530'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xingxunliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/xingxunliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xingxunliu/.fishros/bin/'), ('SESSION_MANAGER', 'local/xxl:@/tmp/.ICE-unix/1468,unix/xxl:/tmp/.ICE-unix/1468'), ('INVOCATION_ID', '4d53d79f78fa49c4892614dfe04112a8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:2eb3f9aa-7b1b-4cb8-91c4-861163d54c12'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xingxunliu/ws_sensor_combined/build/px4_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.199131] (-) TimerEvent: {}
+[0.299584] (-) TimerEvent: {}
+[0.400143] (-) TimerEvent: {}
+[0.500758] (-) TimerEvent: {}
+[0.601175] (-) TimerEvent: {}
+[0.627311] (px4_msgs) StdoutLine: {'line': b'[  0%] Built target px4_msgs__cpp\n'}
+[0.630747] (uav_interfaces) JobProgress: {'identifier': 'uav_interfaces', 'progress': 'cmake'}
+[0.631521] (uav_interfaces) JobProgress: {'identifier': 'uav_interfaces', 'progress': 'build'}
+[0.632030] (uav_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'xingxunliu'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1384'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/xingxunliu'), ('OLDPWD', '/home/xingxunliu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1066'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '76276'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'xingxunliu'), ('JOURNAL_STREAM', '8:24530'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'xingxunliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/xingxunliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xingxunliu/.fishros/bin/'), ('SESSION_MANAGER', 'local/xxl:@/tmp/.ICE-unix/1468,unix/xxl:/tmp/.ICE-unix/1468'), ('INVOCATION_ID', '4d53d79f78fa49c4892614dfe04112a8'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:2eb3f9aa-7b1b-4cb8-91c4-861163d54c12'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.643675] (px4_msgs) StdoutLine: {'line': b'[ 12%] Built target px4_msgs__rosidl_generator_c\n'}
+[0.681137] (uav_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.701328] (-) TimerEvent: {}
+[0.716502] (px4_msgs) StdoutLine: {'line': b'[ 24%] Built target px4_msgs__rosidl_typesupport_cpp\n'}
+[0.718457] (uav_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.723923] (px4_msgs) StdoutLine: {'line': b'[ 37%] Built target px4_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.731635] (px4_msgs) StdoutLine: {'line': b'[ 50%] Built target px4_msgs__rosidl_typesupport_c\n'}
+[0.747157] (px4_msgs) StdoutLine: {'line': b'[ 62%] Built target px4_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.760238] (px4_msgs) StdoutLine: {'line': b'[ 75%] Built target px4_msgs__rosidl_typesupport_introspection_c\n'}
+[0.801463] (-) TimerEvent: {}
+[0.872393] (px4_msgs) StdoutLine: {'line': b'[ 88%] Built target px4_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.901607] (-) TimerEvent: {}
+[0.907222] (px4_msgs) StdoutLine: {'line': b'[ 88%] Built target px4_msgs\n'}
+[0.932949] (uav_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.958046] (uav_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.958934] (px4_msgs) StdoutLine: {'line': b'[ 88%] Built target px4_msgs__py\n'}
+[0.962072] (uav_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.001786] (-) TimerEvent: {}
+[1.102299] (-) TimerEvent: {}
+[1.135152] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__python\n'}
+[1.159175] (uav_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.192529] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[1.193074] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_typesupport_c__pyext\n'}
+[1.198669] (px4_msgs) StdoutLine: {'line': b'[100%] Built target px4_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.202419] (-) TimerEvent: {}
+[1.221643] (px4_msgs) CommandEnded: {'returncode': 0}
+[1.302668] (-) TimerEvent: {}
+[1.366140] (uav_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.380095] (uav_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/uav_description', 'build', '--build-base', '/home/xingxunliu/ws_sensor_combined/build/uav_description/build', 'install', '--record', '/home/xingxunliu/ws_sensor_combined/build/uav_description/install.log', '--install-scripts', '$base/lib/uav_description', '--single-version-externally-managed'], 'cwd': '/home/xingxunliu/ws_sensor_combined/src/uav_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh:en_US:en', 'USER': 'xingxunliu', 'LC_TIME': 'zh_CN.UTF-8', 'SSH_AGENT_PID': '1384', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'fcitx', 'HOME': '/home/xingxunliu', 'OLDPWD': '/home/xingxunliu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'MANAGERPID': '1066', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '76276', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'xingxunliu', 'JOURNAL_STREAM': '8:24530', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'xingxunliu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/xingxunliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xingxunliu/.fishros/bin/', 'SESSION_MANAGER': 'local/xxl:@/tmp/.ICE-unix/1468,unix/xxl:/tmp/.ICE-unix/1468', 'INVOCATION_ID': '4d53d79f78fa49c4892614dfe04112a8', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:2eb3f9aa-7b1b-4cb8-91c4-861163d54c12', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/xingxunliu/ws_sensor_combined/build/uav_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/xingxunliu/ws_sensor_combined/build/uav_description/prefix_override:/home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.402784] (-) TimerEvent: {}
+[1.408371] (uav_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.415878] (suanfa) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/suanfa', 'build', '--build-base', '/home/xingxunliu/ws_sensor_combined/build/suanfa/build', 'install', '--record', '/home/xingxunliu/ws_sensor_combined/build/suanfa/install.log', '--install-scripts', '$base/lib/suanfa', '--single-version-externally-managed'], 'cwd': '/home/xingxunliu/ws_sensor_combined/src/suanfa', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:zh:en_US:en', 'USER': 'xingxunliu', 'LC_TIME': 'zh_CN.UTF-8', 'SSH_AGENT_PID': '1384', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'QT4_IM_MODULE': 'fcitx', 'HOME': '/home/xingxunliu', 'OLDPWD': '/home/xingxunliu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'MANAGERPID': '1066', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '76276', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'xingxunliu', 'JOURNAL_STREAM': '8:24530', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'xingxunliu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/xingxunliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/xingxunliu/.fishros/bin/', 'SESSION_MANAGER': 'local/xxl:@/tmp/.ICE-unix/1468,unix/xxl:/tmp/.ICE-unix/1468', 'INVOCATION_ID': '4d53d79f78fa49c4892614dfe04112a8', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:2eb3f9aa-7b1b-4cb8-91c4-861163d54c12', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/xingxunliu/ws_sensor_combined/build/suanfa', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'fcitx', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/xingxunliu/ws_sensor_combined/build/suanfa/prefix_override:/home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.502961] (-) TimerEvent: {}
+[1.522425] (uav_description) StderrLine: {'line': b'/home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[1.522754] (uav_description) StderrLine: {'line': b'!!\n'}
+[1.522871] (uav_description) StderrLine: {'line': b'\n'}
+[1.522980] (uav_description) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.523089] (uav_description) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[1.523197] (uav_description) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[1.523307] (uav_description) StderrLine: {'line': b'\n'}
+[1.523418] (uav_description) StderrLine: {'line': b'        By 2023-Sep-26, you need to update your project and remove deprecated calls\n'}
+[1.523531] (uav_description) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[1.523648] (uav_description) StderrLine: {'line': b'\n'}
+[1.523766] (uav_description) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[1.523898] (uav_description) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.524017] (uav_description) StderrLine: {'line': b'\n'}
+[1.524142] (uav_description) StderrLine: {'line': b'!!\n'}
+[1.524261] (uav_description) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[1.556446] (suanfa) StderrLine: {'line': b'/home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options\n'}
+[1.556793] (suanfa) StderrLine: {'line': b'!!\n'}
+[1.556928] (suanfa) StderrLine: {'line': b'\n'}
+[1.557061] (suanfa) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.557197] (suanfa) StderrLine: {'line': b"        Usage of dash-separated 'script-dir' will not be supported in future\n"}
+[1.557331] (suanfa) StderrLine: {'line': b"        versions. Please use the underscore name 'script_dir' instead.\n"}
+[1.557465] (suanfa) StderrLine: {'line': b'\n'}
+[1.557596] (suanfa) StderrLine: {'line': b'        By 2023-Sep-26, you need to update your project and remove deprecated calls\n'}
+[1.557785] (suanfa) StderrLine: {'line': b'        or your builds will no longer be supported.\n'}
+[1.557919] (suanfa) StderrLine: {'line': b'\n'}
+[1.558046] (suanfa) StderrLine: {'line': b'        See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.\n'}
+[1.558190] (suanfa) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.558337] (suanfa) StderrLine: {'line': b'\n'}
+[1.558471] (suanfa) StderrLine: {'line': b'!!\n'}
+[1.558608] (suanfa) StderrLine: {'line': b'  opt = self.warn_dash_deprecation(opt, section)\n'}
+[1.603071] (-) TimerEvent: {}
+[1.620905] (uav_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.637433] (uav_description) StdoutLine: {'line': b'writing ../../build/uav_description/uav_description.egg-info/PKG-INFO\n'}
+[1.638275] (uav_description) StdoutLine: {'line': b'writing dependency_links to ../../build/uav_description/uav_description.egg-info/dependency_links.txt\n'}
+[1.638697] (uav_description) StdoutLine: {'line': b'writing requirements to ../../build/uav_description/uav_description.egg-info/requires.txt\n'}
+[1.638867] (uav_description) StdoutLine: {'line': b'writing top-level names to ../../build/uav_description/uav_description.egg-info/top_level.txt\n'}
+[1.654349] (uav_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[1.654976] (uav_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.655135] (uav_interfaces) StderrLine: {'line': b'  uav_interfaces --arguments-file\n'}
+[1.655326] (uav_interfaces) StderrLine: {'line': b'  /home/xingxunliu/ws_sensor_combined/build/uav_interfaces/rosidl_adapter__arguments__uav_interfaces.json\n'}
+[1.655499] (uav_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[1.655646] (uav_interfaces) StderrLine: {'line': b'  /home/xingxunliu/ws_sensor_combined/build/uav_interfaces/rosidl_adapter/uav_interfaces\n'}
+[1.655805] (uav_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[1.655981] (uav_interfaces) StderrLine: {'line': b'  /home/xingxunliu/ws_sensor_combined/build/uav_interfaces/rosidl_adapter/uav_interfaces.idls)\n'}
+[1.656152] (uav_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.656316] (uav_interfaces) StderrLine: {'line': b'\n'}
+[1.656639] (uav_interfaces) StderrLine: {'line': b'  Error with: uav_interfaces UavControl ---\n'}
+[1.656923] (uav_interfaces) StderrLine: {'line': b'\n'}
+[1.657075] (uav_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.657216] (uav_interfaces) StderrLine: {'line': b'\n'}
+[1.657404] (uav_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[1.657804] (uav_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.658110] (uav_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[1.658260] (uav_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.658546] (uav_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.658703] (uav_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.658847] (uav_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.658988] (uav_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.659128] (uav_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.659274] (uav_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.659611] (uav_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.659779] (uav_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.659931] (uav_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 506, in parse_message_string\n'}
+[1.660083] (uav_interfaces) StderrLine: {'line': b'      raise InvalidFieldDefinition(line)\n'}
+[1.660253] (uav_interfaces) StderrLine: {'line': b'\n'}
+[1.660436] (uav_interfaces) StderrLine: {'line': b'  rosidl_adapter.parser.InvalidFieldDefinition: ---\n'}
+[1.660591] (uav_interfaces) StderrLine: {'line': b'\n'}
+[1.660742] (uav_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.660893] (uav_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.661046] (uav_interfaces) StderrLine: {'line': b'  CMakeLists.txt:28 (rosidl_generate_interfaces)\n'}
+[1.661220] (uav_interfaces) StderrLine: {'line': b'\n'}
+[1.661568] (uav_interfaces) StderrLine: {'line': b'\n'}
+[1.661771] (uav_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.661936] (uav_interfaces) StdoutLine: {'line': b'See also "/home/xingxunliu/ws_sensor_combined/build/uav_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.668105] (uav_interfaces) StderrLine: {'line': b'make: *** [Makefile:748\xef\xbc\x9acmake_check_build_system] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[1.670667] (suanfa) StdoutLine: {'line': b'running egg_info\n'}
+[1.671457] (uav_interfaces) CommandEnded: {'returncode': 2}
+[1.687932] (suanfa) StdoutLine: {'line': b'writing ../../build/suanfa/suanfa.egg-info/PKG-INFO\n'}
+[1.688546] (suanfa) StdoutLine: {'line': b'writing dependency_links to ../../build/suanfa/suanfa.egg-info/dependency_links.txt\n'}
+[1.688739] (suanfa) StdoutLine: {'line': b'writing entry points to ../../build/suanfa/suanfa.egg-info/entry_points.txt\n'}
+[1.689027] (suanfa) StdoutLine: {'line': b'writing requirements to ../../build/suanfa/suanfa.egg-info/requires.txt\n'}
+[1.689147] (suanfa) StdoutLine: {'line': b'writing top-level names to ../../build/suanfa/suanfa.egg-info/top_level.txt\n'}
+[1.703172] (-) TimerEvent: {}
+[1.770972] (uav_description) StdoutLine: {'line': b"reading manifest file '../../build/uav_description/uav_description.egg-info/SOURCES.txt'\n"}
+[1.771788] (uav_description) StdoutLine: {'line': b"writing manifest file '../../build/uav_description/uav_description.egg-info/SOURCES.txt'\n"}
+[1.772455] (uav_description) StdoutLine: {'line': b'running build\n'}
+[1.772643] (uav_description) StdoutLine: {'line': b'running build_py\n'}
+[1.772804] (uav_description) StdoutLine: {'line': b'running install\n'}
+[1.773485] (uav_description) StderrLine: {'line': b'/home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.773741] (uav_description) StderrLine: {'line': b'!!\n'}
+[1.773829] (uav_description) StderrLine: {'line': b'\n'}
+[1.773914] (uav_description) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.773985] (uav_description) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.774697] (uav_description) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.775041] (uav_description) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.775368] (uav_description) StderrLine: {'line': b'\n'}
+[1.775580] (uav_description) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.776255] (uav_description) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.776452] (uav_description) StderrLine: {'line': b'\n'}
+[1.776606] (uav_description) StderrLine: {'line': b'!!\n'}
+[1.777118] (uav_description) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.780991] (uav_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.798613] (uav_interfaces) JobEnded: {'identifier': 'uav_interfaces', 'rc': 2}
+[1.802398] (uav_description) StdoutLine: {'line': b'running install_data\n'}
+[1.803279] (-) TimerEvent: {}
+[1.811194] (suanfa) StdoutLine: {'line': b"reading manifest file '../../build/suanfa/suanfa.egg-info/SOURCES.txt'\n"}
+[1.812597] (suanfa) StdoutLine: {'line': b"writing manifest file '../../build/suanfa/suanfa.egg-info/SOURCES.txt'\n"}
+[1.812998] (suanfa) StdoutLine: {'line': b'running build\n'}
+[1.813156] (suanfa) StdoutLine: {'line': b'running build_py\n'}
+[1.813729] (suanfa) StdoutLine: {'line': b'running install\n'}
+[1.814134] (suanfa) StderrLine: {'line': b'/home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[1.814319] (suanfa) StderrLine: {'line': b'!!\n'}
+[1.814459] (suanfa) StderrLine: {'line': b'\n'}
+[1.814580] (suanfa) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.814701] (suanfa) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[1.814821] (suanfa) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[1.814940] (suanfa) StderrLine: {'line': b'        standards-based tools.\n'}
+[1.815058] (suanfa) StderrLine: {'line': b'\n'}
+[1.815175] (suanfa) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[1.815301] (suanfa) StderrLine: {'line': b'        ********************************************************************************\n'}
+[1.815477] (suanfa) StderrLine: {'line': b'\n'}
+[1.815653] (suanfa) StderrLine: {'line': b'!!\n'}
+[1.815824] (suanfa) StderrLine: {'line': b'  self.initialize_options()\n'}
+[1.818432] (uav_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.822157] (suanfa) StdoutLine: {'line': b'running install_lib\n'}
+[1.835586] (uav_description) StdoutLine: {'line': b"removing '/home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages/uav_description-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.836245] (uav_description) StdoutLine: {'line': b'Copying ../../build/uav_description/uav_description.egg-info to /home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages/uav_description-0.0.0-py3.8.egg-info\n'}
+[1.836867] (uav_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.841349] (suanfa) StdoutLine: {'line': b'running install_data\n'}
+[1.857510] (suanfa) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.872799] (suanfa) StdoutLine: {'line': b"removing '/home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.873286] (suanfa) StdoutLine: {'line': b'Copying ../../build/suanfa/suanfa.egg-info to /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa-0.0.0-py3.8.egg-info\n'}
+[1.874331] (suanfa) StdoutLine: {'line': b'running install_scripts\n'}
+[1.903409] (-) TimerEvent: {}
+[1.908284] (uav_description) StdoutLine: {'line': b"writing list of installed files to '/home/xingxunliu/ws_sensor_combined/build/uav_description/install.log'\n"}
+[1.943389] (suanfa) StdoutLine: {'line': b'Installing suanfa_node script to /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/suanfa\n'}
+[1.943991] (suanfa) StdoutLine: {'line': b"writing list of installed files to '/home/xingxunliu/ws_sensor_combined/build/suanfa/install.log'\n"}
+[1.965208] (uav_description) JobEnded: {'identifier': 'uav_description', 'rc': 'SIGINT'}
+[1.997223] (suanfa) JobEnded: {'identifier': 'suanfa', 'rc': 'SIGINT'}
+[2.003560] (-) TimerEvent: {}
+[2.104258] (-) TimerEvent: {}
+[2.204726] (-) TimerEvent: {}
+[2.305449] (-) TimerEvent: {}
+[2.405959] (-) TimerEvent: {}
+[2.506423] (-) TimerEvent: {}
+[2.606817] (-) TimerEvent: {}
+[2.707232] (-) TimerEvent: {}
+[2.807704] (-) TimerEvent: {}
+[2.908269] (-) TimerEvent: {}
+[3.008648] (-) TimerEvent: {}
+[3.109211] (-) TimerEvent: {}
+[3.209676] (-) TimerEvent: {}
+[3.310267] (-) TimerEvent: {}
+[3.410680] (-) TimerEvent: {}
+[3.511098] (-) TimerEvent: {}
+[3.611539] (-) TimerEvent: {}
+[3.711984] (-) TimerEvent: {}
+[3.812552] (-) TimerEvent: {}
+[3.912936] (-) TimerEvent: {}
+[4.013345] (-) TimerEvent: {}
+[4.113827] (-) TimerEvent: {}
+[4.214178] (-) TimerEvent: {}
+[4.314442] (-) TimerEvent: {}
+[4.414864] (-) TimerEvent: {}
+[4.515249] (-) TimerEvent: {}
+[4.615628] (-) TimerEvent: {}
+[4.715958] (-) TimerEvent: {}
+[4.816490] (-) TimerEvent: {}
+[4.916883] (-) TimerEvent: {}
+[5.017380] (-) TimerEvent: {}
+[5.118077] (-) TimerEvent: {}
+[5.218517] (-) TimerEvent: {}
+[5.318952] (-) TimerEvent: {}
+[5.419352] (-) TimerEvent: {}
+[5.519850] (-) TimerEvent: {}
+[5.600809] (px4_msgs) JobEnded: {'identifier': 'px4_msgs', 'rc': 'SIGINT'}
+[5.611546] (px4_ros_com) JobSkipped: {'identifier': 'px4_ros_com'}
+[5.611741] (-) EventReactorShutdown: {}

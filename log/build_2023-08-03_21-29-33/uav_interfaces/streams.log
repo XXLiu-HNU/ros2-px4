@@ -1,0 +1,122 @@
+[0.038s] Invoking command in '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/uav_interfaces -- -j16 -l16
+[0.118s] [  3%] Built target uav_interfaces__cpp
+[0.121s] [ 12%] Built target uav_interfaces__rosidl_generator_c
+[0.150s] [ 22%] Built target uav_interfaces__rosidl_typesupport_cpp
+[0.152s] [ 32%] Built target uav_interfaces__rosidl_typesupport_introspection_cpp
+[0.156s] [ 41%] Built target uav_interfaces__rosidl_typesupport_introspection_c
+[0.156s] [ 51%] Built target uav_interfaces__rosidl_typesupport_c
+[0.164s] [ 61%] Built target uav_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.211s] [ 70%] Built target uav_interfaces__rosidl_typesupport_fastrtps_c
+[0.242s] [ 70%] Built target uav_interfaces
+[0.269s] [ 74%] Built target uav_interfaces__py
+[0.309s] [ 80%] Built target uav_interfaces__python
+[0.340s] [ 87%] Built target uav_interfaces__rosidl_typesupport_c__pyext
+[0.347s] [ 93%] Built target uav_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.348s] [100%] Built target uav_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.367s] Invoked command in '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/uav_interfaces -- -j16 -l16
+[0.456s] Invoking command in '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xingxunliu/ws_sensor_combined/build/uav_interfaces
+[0.474s] -- Install configuration: ""
+[0.475s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/ament_index/resource_index/rosidl_interfaces/uav_interfaces
+[0.475s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces
+[0.475s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv
+[0.475s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail
+[0.475s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__functions.c
+[0.475s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__functions.h
+[0.476s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__type_support.h
+[0.476s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__struct.h
+[0.476s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/uav_control.h
+[0.476s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg
+[0.476s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.476s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/library_path.sh
+[0.476s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/library_path.dsv
+[0.477s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_generator_c.so
+[0.477s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces
+[0.477s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv
+[0.477s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail
+[0.477s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__rosidl_typesupport_fastrtps_c.h
+[0.477s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg
+[0.477s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.478s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.478s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces
+[0.478s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv
+[0.478s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail
+[0.478s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__rosidl_typesupport_fastrtps_cpp.hpp
+[0.478s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/dds_fastrtps
+[0.479s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg
+[0.479s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.479s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.479s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces
+[0.479s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv
+[0.479s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail
+[0.480s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__rosidl_typesupport_introspection_c.h
+[0.480s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__type_support.c
+[0.480s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg
+[0.480s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.480s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_introspection_c.so
+[0.480s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_c.so
+[0.480s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces
+[0.480s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv
+[0.480s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail
+[0.481s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__type_support.hpp
+[0.481s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__struct.hpp
+[0.481s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__builder.hpp
+[0.481s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__traits.hpp
+[0.481s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/uav_control.hpp
+[0.481s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg
+[0.481s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.481s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces
+[0.481s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv
+[0.482s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail
+[0.482s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__type_support.cpp
+[0.482s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/include/uav_interfaces/srv/detail/uav_control__rosidl_typesupport_introspection_cpp.hpp
+[0.482s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.482s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__rosidl_typesupport_cpp.so
+[0.482s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/pythonpath.sh
+[0.482s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/pythonpath.dsv
+[0.482s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/__init__.py
+[0.538s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/srv
+[0.538s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/srv/_uav_control_s.c
+[0.538s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/srv/_uav_control.py
+[0.538s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/srv/__init__.py
+[0.539s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/uav_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.540s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/uav_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.541s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages/uav_interfaces/uav_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.542s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/libuav_interfaces__python.so
+[0.543s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/srv/UavControl.idl
+[0.543s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/srv/UavControl.srv
+[0.543s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/srv/UavControl_Request.msg
+[0.543s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/srv/UavControl_Response.msg
+[0.543s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/ament_index/resource_index/package_run_dependencies/uav_interfaces
+[0.543s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/ament_index/resource_index/parent_prefix_path/uav_interfaces
+[0.543s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/ament_prefix_path.sh
+[0.544s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/ament_prefix_path.dsv
+[0.544s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/path.sh
+[0.544s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/environment/path.dsv
+[0.544s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/local_setup.bash
+[0.544s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/local_setup.sh
+[0.544s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/local_setup.zsh
+[0.544s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/local_setup.dsv
+[0.544s] -- Installing: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/package.dsv
+[0.545s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/ament_index/resource_index/packages/uav_interfaces
+[0.545s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_generator_cExport.cmake
+[0.545s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.546s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.546s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.546s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_cExport.cmake
+[0.547s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.547s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_generator_cppExport.cmake
+[0.547s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.547s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.548s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_cppExport.cmake
+[0.548s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.548s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.548s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.549s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.549s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.549s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.549s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.550s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.551s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfacesConfig.cmake
+[0.554s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/cmake/uav_interfacesConfig-version.cmake
+[0.555s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/uav_interfaces/share/uav_interfaces/package.xml
+[0.556s] Invoked command in '/home/xingxunliu/ws_sensor_combined/build/uav_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/xingxunliu/ws_sensor_combined/build/uav_interfaces

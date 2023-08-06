@@ -1,0 +1,4 @@
+make[2]: *** 没有规则可制作目标“/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp”，由“CMakeFiles/offboard_test.dir/src/examples/offboard/offboard_test.cpp.o” 需求。 停止。
+make[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/offboard_test.dir/all] 错误 2
+make[1]: *** 正在等待未完成的任务....
+make: *** [Makefile:141：all] 错误 2

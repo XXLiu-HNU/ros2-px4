@@ -1,0 +1,3 @@
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/tcp.cpp:322:12:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+  322 |      cout<<[01;35m[K'hear!'[m[K<<endl;
+      |            [01;35m[K^~~~~~~[m[K

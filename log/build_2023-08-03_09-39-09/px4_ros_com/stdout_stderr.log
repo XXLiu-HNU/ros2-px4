@@ -1,0 +1,117 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found px4_msgs: 2.0.1 (/home/xingxunliu/ws_sensor_combined/install/px4_msgs/share/px4_msgs/cmake)
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/xingxunliu/ws_sensor_combined/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/include/px4_ros_com>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/xingxunliu/ws_sensor_combined/build/px4_ros_com
+[35m[1mScanning dependencies of target uva4_takeoff[0m
+[35m[1mScanning dependencies of target uva3_takeoff[0m
+[35m[1mScanning dependencies of target uva2_takeoff[0m
+[35m[1mScanning dependencies of target offboard_control[0m
+[35m[1mScanning dependencies of target offboard_con[0m
+[35m[1mScanning dependencies of target uva1_takeoff[0m
+[ 10%] Built target frame_transforms
+[ 20%] Built target sensor_combined_listener
+[ 30%] Built target vehicle_gps_position_listener
+[ 40%] Built target debug_vect_advertiser
+[ 45%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/offboard_con.dir/src/examples/offboard/offboard_con.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/uva1_takeoff.dir/src/examples/offboard/uva1_takeoff.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/uva3_takeoff.dir/src/examples/offboard/uva3_takeoff.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/uva4_takeoff.dir/src/examples/offboard/uva4_takeoff.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/uva2_takeoff.dir/src/examples/offboard/uva2_takeoff.cpp.o[0m
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_con.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoint(float, float, float) const[m[K’:
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_con.cpp:291:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  291 | void OffboardControl::publish_trajectory_setpoint([01;35m[Kfloat x[m[K,float y,float z) const {
+      |                                                   [01;35m[K~~~~~~^[m[K
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_con.cpp:291:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  291 | void OffboardControl::publish_trajectory_setpoint(float x,[01;35m[Kfloat y[m[K,float z) const {
+      |                                                           [01;35m[K~~~~~~^[m[K
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_con.cpp:291:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  291 | void OffboardControl::publish_trajectory_setpoint(float x,float y,[01;35m[Kfloat z[m[K) const {
+      |                                                                   [01;35m[K~~~~~~^[m[K
+[ 80%] [32m[1mLinking CXX executable uva4_takeoff[0m
+[ 80%] [32m[1mLinking CXX executable uva3_takeoff[0m
+[ 85%] [32m[1mLinking CXX executable uva2_takeoff[0m
+[ 90%] [32m[1mLinking CXX executable offboard_control[0m
+[ 95%] [32m[1mLinking CXX executable uva1_takeoff[0m
+[ 95%] Built target uva4_takeoff
+[ 95%] Built target uva3_takeoff
+[ 95%] Built target uva2_takeoff
+[ 95%] Built target offboard_control
+[ 95%] Built target uva1_takeoff
+[100%] [32m[1mLinking CXX executable offboard_con[0m
+[100%] Built target offboard_con
+-- Install configuration: ""
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control
+-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_con
+-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_con" to ""
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/uva1_takeoff
+-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/uva1_takeoff" to ""
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/uva2_takeoff
+-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/uva2_takeoff" to ""
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/uva3_takeoff
+-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/uva3_takeoff" to ""
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/uva4_takeoff
+-- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/uva4_takeoff" to ""
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/include/px4_ros_com
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/libframe_transforms.so
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.dsv
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+-- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+-- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.xml

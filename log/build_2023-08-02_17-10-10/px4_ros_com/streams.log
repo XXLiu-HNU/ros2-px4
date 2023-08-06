@@ -1,0 +1,54 @@
+[0.035s] Invoking command in '/home/xingxunliu/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/px4_ros_com -- -j16 -l16
+[0.126s] [35m[1mScanning dependencies of target offboard_con[0m
+[0.151s] [ 16%] Built target sensor_combined_listener
+[0.152s] [ 33%] Built target offboard_control
+[0.156s] [ 50%] Built target vehicle_gps_position_listener
+[0.156s] [ 66%] Built target frame_transforms
+[0.159s] [ 83%] Built target debug_vect_advertiser
+[0.196s] [ 91%] [32mBuilding CXX object CMakeFiles/offboard_con.dir/src/examples/offboard/offboard_con.cpp.o[0m
+[14.889s] [100%] [32m[1mLinking CXX executable offboard_con[0m
+[15.685s] [100%] Built target offboard_con
+[15.709s] Invoked command in '/home/xingxunliu/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/px4_ros_com -- -j16 -l16
+[15.810s] Invoking command in '/home/xingxunliu/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xingxunliu/ws_sensor_combined/build/px4_ros_com
+[15.826s] -- Install configuration: ""
+[15.826s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[15.826s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[15.827s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[15.828s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[15.828s] -- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_con
+[15.835s] -- Set runtime path of "/home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/px4_ros_com/offboard_con" to ""
+[15.835s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[15.836s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[15.836s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/include/px4_ros_com
+[15.836s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[15.836s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib/libframe_transforms.so
+[15.837s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch
+[15.837s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[15.837s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[15.838s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test
+[15.838s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[15.838s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[15.838s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[15.838s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[15.838s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[15.839s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[15.839s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[15.839s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[15.839s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[15.839s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[15.840s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[15.840s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[15.841s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[15.841s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[15.842s] -- Installing: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.dsv
+[15.842s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[15.842s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[15.842s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[15.843s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.843s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[15.843s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.843s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[15.843s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[15.844s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[15.844s] -- Up-to-date: /home/xingxunliu/ws_sensor_combined/install/px4_ros_com/share/px4_ros_com/package.xml
+[15.849s] Invoked command in '/home/xingxunliu/ws_sensor_combined/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/xingxunliu/ws_sensor_combined/build/px4_ros_com

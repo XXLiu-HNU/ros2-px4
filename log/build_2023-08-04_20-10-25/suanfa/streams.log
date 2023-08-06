@@ -1,0 +1,37 @@
+[1.063s] Invoking command in '/home/xingxunliu/ws_sensor_combined/src/suanfa': PYTHONPATH=/home/xingxunliu/ws_sensor_combined/build/suanfa/prefix_override:/home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/suanfa build --build-base /home/xingxunliu/ws_sensor_combined/build/suanfa/build install --record /home/xingxunliu/ws_sensor_combined/build/suanfa/install.log --single-version-externally-managed
+[1.299s] running egg_info
+[1.315s] writing ../../build/suanfa/suanfa.egg-info/PKG-INFO
+[1.316s] writing dependency_links to ../../build/suanfa/suanfa.egg-info/dependency_links.txt
+[1.316s] writing entry points to ../../build/suanfa/suanfa.egg-info/entry_points.txt
+[1.316s] writing requirements to ../../build/suanfa/suanfa.egg-info/requires.txt
+[1.316s] writing top-level names to ../../build/suanfa/suanfa.egg-info/top_level.txt
+[1.443s] reading manifest file '../../build/suanfa/suanfa.egg-info/SOURCES.txt'
+[1.444s] writing manifest file '../../build/suanfa/suanfa.egg-info/SOURCES.txt'
+[1.444s] running build
+[1.444s] running build_py
+[1.445s] copying suanfa/calculate.py -> /home/xingxunliu/ws_sensor_combined/build/suanfa/build/lib/suanfa
+[1.445s] running install
+[1.445s] /home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.446s] !!
+[1.446s] 
+[1.446s]         ********************************************************************************
+[1.446s]         Please avoid running ``setup.py`` directly.
+[1.446s]         Instead, use pypa/build, pypa/installer or other
+[1.446s]         standards-based tools.
+[1.446s] 
+[1.446s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.447s]         ********************************************************************************
+[1.447s] 
+[1.447s] !!
+[1.447s]   self.initialize_options()
+[1.453s] running install_lib
+[1.469s] copying /home/xingxunliu/ws_sensor_combined/build/suanfa/build/lib/suanfa/calculate.py -> /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa
+[1.470s] byte-compiling /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa/calculate.py to calculate.cpython-38.pyc
+[1.471s] running install_data
+[1.486s] running install_egg_info
+[1.504s] removing '/home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa-0.0.0-py3.8.egg-info' (and everything under it)
+[1.504s] Copying ../../build/suanfa/suanfa.egg-info to /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa-0.0.0-py3.8.egg-info
+[1.505s] running install_scripts
+[1.573s] Installing suanfa_node script to /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/suanfa
+[1.573s] writing list of installed files to '/home/xingxunliu/ws_sensor_combined/build/suanfa/install.log'
+[1.626s] Invoked command in '/home/xingxunliu/ws_sensor_combined/src/suanfa' returned '0': PYTHONPATH=/home/xingxunliu/ws_sensor_combined/build/suanfa/prefix_override:/home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/suanfa build --build-base /home/xingxunliu/ws_sensor_combined/build/suanfa/build install --record /home/xingxunliu/ws_sensor_combined/build/suanfa/install.log --single-version-externally-managed

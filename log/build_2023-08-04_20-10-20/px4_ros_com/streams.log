@@ -1,0 +1,23 @@
+[0.057s] Invoking command in '/home/xingxunliu/ws_sensor_combined/build/px4_ros_com': CMAKE_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/uav_interfaces:/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/home/xingxunliu/ws_sensor_combined/install/px4_ros_com:/home/xingxunliu/ws_sensor_combined/install/suanfa:/opt/ros/foxy LD_LIBRARY_PATH=/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib:/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:/home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages:/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:/home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/px4_ros_com -- -j16 -l16
+[0.146s] [35m[1mScanning dependencies of target tcp[0m
+[0.171s] [  8%] Built target frame_transforms
+[0.172s] [ 16%] Built target offboard_control
+[0.174s] [ 25%] Built target uva3_takeoff
+[0.175s] [ 33%] Built target uva4_takeoff
+[0.177s] [ 50%] Built target debug_vect_advertiser
+[0.177s] [ 50%] Built target offboard_con
+[0.178s] [ 58%] Built target simpleMission
+[0.179s] [ 66%] Built target uva1_takeoff
+[0.182s] [ 83%] Built target uva2_takeoff
+[0.182s] [ 83%] Built target sensor_combined_listener
+[0.185s] [ 91%] Built target vehicle_gps_position_listener
+[0.216s] [ 95%] [32mBuilding CXX object CMakeFiles/tcp.dir/src/examples/offboard/tcp.cpp.o[0m
+[1.949s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/tcp.cpp:[m[K In lambda function:
+[1.949s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/tcp.cpp:185:137:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kfloat[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’ to binary ‘[01m[Koperator<<[m[K’
+[1.949s]   185 | (),uav_position_y.load(),[01;31m[Kuav_position_z.load()<<endl[m[K;
+[1.949s]       |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.949s] 
+[6.271s] make[2]: *** [CMakeFiles/tcp.dir/build.make:63：CMakeFiles/tcp.dir/src/examples/offboard/tcp.cpp.o] 错误 1
+[6.271s] make[1]: *** [CMakeFiles/Makefile2:451：CMakeFiles/tcp.dir/all] 错误 2
+[6.272s] make: *** [Makefile:141：all] 错误 2
+[6.277s] Invoked command in '/home/xingxunliu/ws_sensor_combined/build/px4_ros_com' returned '2': CMAKE_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/uav_interfaces:/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/home/xingxunliu/ws_sensor_combined/install/px4_ros_com:/home/xingxunliu/ws_sensor_combined/install/suanfa:/opt/ros/foxy LD_LIBRARY_PATH=/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib:/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:/home/xingxunliu/ws_sensor_combined/install/px4_ros_com/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/xingxunliu/ws_sensor_combined/install/uav_interfaces/lib/python3.8/site-packages:/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:/home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/px4_ros_com -- -j16 -l16

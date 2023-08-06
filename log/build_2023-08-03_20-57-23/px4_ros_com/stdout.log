@@ -1,0 +1,11 @@
+[ 22%] Built target uva2_takeoff
+[ 27%] Built target vehicle_gps_position_listener
+[ 22%] Built target offboard_control
+[ 36%] Built target uva3_takeoff
+[ 45%] Built target uva4_takeoff
+[ 72%] Built target uva1_takeoff
+[ 72%] Built target sensor_combined_listener
+[ 72%] Built target offboard_con
+[ 81%] Built target frame_transforms
+[ 86%] [32mBuilding CXX object CMakeFiles/tcp.dir/src/examples/offboard/tcp.cpp.o[0m
+[ 95%] Built target debug_vect_advertiser

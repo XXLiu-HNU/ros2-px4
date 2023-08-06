@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from uav_interfaces/srv/UavControl.srv
+// generated code does not contain a copyright notice
+
+
+module uav_interfaces {
+  module srv {
+    struct UavControl_Request {
+      int32 takeoff_land;
+
+      int32 x_deta;
+
+      int32 y_deta;
+
+      int32 z_deta;
+    };
+    struct UavControl_Response {
+      int32 success;
+    };
+  };
+};

@@ -1,0 +1,10 @@
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_con.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoint(float, float, float) const[m[K’:
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_con.cpp:291:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  291 | void OffboardControl::publish_trajectory_setpoint([01;35m[Kfloat x[m[K,float y,float z) const {
+      |                                                   [01;35m[K~~~~~~^[m[K
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_con.cpp:291:65:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  291 | void OffboardControl::publish_trajectory_setpoint(float x,[01;35m[Kfloat y[m[K,float z) const {
+      |                                                           [01;35m[K~~~~~~^[m[K
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_con.cpp:291:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  291 | void OffboardControl::publish_trajectory_setpoint(float x,float y,[01;35m[Kfloat z[m[K) const {
+      |                                                                   [01;35m[K~~~~~~^[m[K

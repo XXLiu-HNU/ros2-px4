@@ -1,0 +1,2 @@
+[console_scripts]
+suanfa_node = suanfa.calculate:main

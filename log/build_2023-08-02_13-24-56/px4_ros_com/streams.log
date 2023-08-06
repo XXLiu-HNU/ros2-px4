@@ -1,0 +1,36 @@
+[0.019s] Invoking command in '/home/xingxunliu/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/px4_ros_com -- -j16 -l16
+[0.069s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.101s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.261s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.298s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.307s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.479s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.509s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[0.513s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.581s] -- Found px4_msgs: 2.0.1 (/home/xingxunliu/ws_sensor_combined/install/px4_msgs/share/px4_msgs/cmake)
+[0.607s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.671s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.676s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.822s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.895s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.973s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.979s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.980s] -- Configured cppcheck include dirs: /home/xingxunliu/ws_sensor_combined/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/include/px4_ros_com>
+[0.981s] -- Configured cppcheck exclude dirs and/or files: 
+[0.984s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.984s] -- Configured cpplint exclude dirs and/or files: 
+[0.984s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.986s] -- Added test 'lint_cmake' to check CMake code style
+[0.987s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.994s] -- Added test 'uncrustify' to check C / C++ code style
+[0.994s] -- Configured uncrustify additional arguments: 
+[0.995s] -- Added test 'xmllint' to check XML markup files
+[0.997s] CMake Error at CMakeLists.txt:63 (add_executable):
+[0.997s]   The target name "test" is reserved when CTest testing is enabled.
+[0.998s] 
+[0.998s] 
+[0.999s] -- Configuring incomplete, errors occurred!
+[0.999s] See also "/home/xingxunliu/ws_sensor_combined/build/px4_ros_com/CMakeFiles/CMakeOutput.log".
+[0.999s] See also "/home/xingxunliu/ws_sensor_combined/build/px4_ros_com/CMakeFiles/CMakeError.log".
+[1.007s] make: *** [Makefile:442：cmake_check_build_system] 错误 1
+[1.011s] Invoked command in '/home/xingxunliu/ws_sensor_combined/build/px4_ros_com' returned '2': AMENT_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/px4_ros_com -- -j16 -l16

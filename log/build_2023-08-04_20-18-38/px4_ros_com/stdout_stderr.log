@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target tcp[0m
+[ 16%] Built target vehicle_gps_position_listener
+[ 16%] Built target uva4_takeoff
+[ 33%] Built target frame_transforms
+[ 33%] Built target offboard_control
+[ 50%] Built target uva3_takeoff
+[ 50%] Built target uva1_takeoff
+[ 66%] Built target simpleMission
+[ 66%] Built target debug_vect_advertiser
+[ 75%] Built target sensor_combined_listener
+[ 83%] Built target uva2_takeoff
+[ 91%] Built target offboard_con
+[ 95%] [32mBuilding CXX object CMakeFiles/tcp.dir/src/examples/offboard/tcp.cpp.o[0m
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/tcp.cpp:[m[K In constructor ‘[01m[KUser::User()[m[K’:
+[01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/tcp.cpp:162:128:[m[K [01;31m[Kerror: [m[K‘[01m[Kqos[m[K’ was not declared in this scope; did you mean ‘[01m[Kcos[m[K’?
+  162 |     position_subscription1_ = this->create_subscription<px4_msgs::msg::VehicleLocalPosition>("/fmu/out/vehicle_local_position",[01;31m[Kqos[m[K,
+      |                                                                                                                                [01;31m[K^~~[m[K
+      |                                                                                                                                [32m[Kcos[m[K
+make[2]: *** [CMakeFiles/tcp.dir/build.make:63：CMakeFiles/tcp.dir/src/examples/offboard/tcp.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:451：CMakeFiles/tcp.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2

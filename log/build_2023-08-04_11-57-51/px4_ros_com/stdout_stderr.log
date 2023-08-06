@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:85:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "//z这里注意第二行加了".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/xingxunliu/ws_sensor_combined/build/px4_ros_com/CMakeFiles/CMakeOutput.log".
+See also "/home/xingxunliu/ws_sensor_combined/build/px4_ros_com/CMakeFiles/CMakeError.log".
+make: *** [Makefile:706：cmake_check_build_system] 错误 1

@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target offboard_con[0m
+[ 33%] Built target vehicle_gps_position_listener
+[ 33%] Built target frame_transforms
+[ 50%] Built target debug_vect_advertiser
+[ 66%] Built target sensor_combined_listener
+[ 83%] Built target offboard_control
+[ 91%] [32mBuilding CXX object CMakeFiles/offboard_con.dir/src/examples/offboard/offboard_con.cpp.o[0m

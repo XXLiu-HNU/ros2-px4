@@ -1,0 +1,66 @@
+[0.849s] Invoking command in '/home/xingxunliu/ws_sensor_combined/src/uav_description': PYTHONPATH=/home/xingxunliu/ws_sensor_combined/build/uav_description/prefix_override:/home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_description build --build-base /home/xingxunliu/ws_sensor_combined/build/uav_description/build install --record /home/xingxunliu/ws_sensor_combined/build/uav_description/install.log --install-scripts $base/lib/uav_description --single-version-externally-managed
+[0.973s] /home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[0.973s] !!
+[0.973s] 
+[0.973s]         ********************************************************************************
+[0.974s]         Usage of dash-separated 'script-dir' will not be supported in future
+[0.974s]         versions. Please use the underscore name 'script_dir' instead.
+[0.974s] 
+[0.974s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[0.974s]         or your builds will no longer be supported.
+[0.974s] 
+[0.974s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[0.974s]         ********************************************************************************
+[0.975s] 
+[0.975s] !!
+[0.975s]   opt = self.warn_dash_deprecation(opt, section)
+[1.058s] running egg_info
+[1.071s] writing ../../build/uav_description/uav_description.egg-info/PKG-INFO
+[1.071s] writing dependency_links to ../../build/uav_description/uav_description.egg-info/dependency_links.txt
+[1.071s] writing requirements to ../../build/uav_description/uav_description.egg-info/requires.txt
+[1.071s] writing top-level names to ../../build/uav_description/uav_description.egg-info/top_level.txt
+[1.165s] reading manifest file '../../build/uav_description/uav_description.egg-info/SOURCES.txt'
+[1.166s] writing manifest file '../../build/uav_description/uav_description.egg-info/SOURCES.txt'
+[1.166s] running build
+[1.166s] running build_py
+[1.166s] /home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.167s] !!
+[1.167s] 
+[1.167s]         ********************************************************************************
+[1.167s]         Please avoid running ``setup.py`` directly.
+[1.167s]         Instead, use pypa/build, pypa/installer or other
+[1.167s]         standards-based tools.
+[1.168s] 
+[1.168s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.168s]         ********************************************************************************
+[1.168s] 
+[1.168s] !!
+[1.168s]   self.initialize_options()
+[1.169s] running install
+[1.171s] running install_lib
+[1.187s] creating /home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages/uav_description
+[1.187s] copying /home/xingxunliu/ws_sensor_combined/build/uav_description/build/lib/uav_description/__init__.py -> /home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages/uav_description
+[1.187s] byte-compiling /home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages/uav_description/__init__.py to __init__.cpython-38.pyc
+[1.187s] running install_data
+[1.197s] creating /home/xingxunliu/ws_sensor_combined/install/uav_description/share/ament_index
+[1.198s] creating /home/xingxunliu/ws_sensor_combined/install/uav_description/share/ament_index/resource_index
+[1.198s] creating /home/xingxunliu/ws_sensor_combined/install/uav_description/share/ament_index/resource_index/packages
+[1.198s] copying resource/uav_description -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/ament_index/resource_index/packages
+[1.198s] copying package.xml -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description
+[1.198s] creating /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/launch
+[1.198s] copying launch/uav_rviz2.launch.py -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/launch
+[1.199s] creating /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/urdf
+[1.199s] copying urdf/iris.sdf.jinja -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/urdf
+[1.199s] copying urdf/model.config -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/urdf
+[1.199s] copying urdf/iris.sdf.last_generated -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/urdf
+[1.199s] copying urdf/iris.sdf -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/urdf
+[1.199s] copying urdf/isirsss.urdf -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/urdf
+[1.199s] creating /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/meshes
+[1.200s] copying meshes/iris_prop_cw.dae -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/meshes
+[1.200s] copying meshes/iris_prop_ccw.dae -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/meshes
+[1.200s] copying meshes/iris.stl -> /home/xingxunliu/ws_sensor_combined/install/uav_description/share/uav_description/meshes
+[1.202s] running install_egg_info
+[1.213s] Copying ../../build/uav_description/uav_description.egg-info to /home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages/uav_description-0.0.0-py3.8.egg-info
+[1.214s] running install_scripts
+[1.258s] writing list of installed files to '/home/xingxunliu/ws_sensor_combined/build/uav_description/install.log'
+[1.300s] Invoked command in '/home/xingxunliu/ws_sensor_combined/src/uav_description' returned '0': PYTHONPATH=/home/xingxunliu/ws_sensor_combined/build/uav_description/prefix_override:/home/xingxunliu/ws_sensor_combined/install/uav_description/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/uav_description build --build-base /home/xingxunliu/ws_sensor_combined/build/uav_description/build install --record /home/xingxunliu/ws_sensor_combined/build/uav_description/install.log --install-scripts $base/lib/uav_description --single-version-externally-managed

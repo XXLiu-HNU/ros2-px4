@@ -1,0 +1,110 @@
+[0.017s] Invoking command in '/home/xingxunliu/ws_sensor_combined/build/px4_ros_com': AMENT_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/px4_ros_com -- -j16 -l16
+[0.087s] [35m[1mScanning dependencies of target offboard_test[0m
+[0.113s] [ 16%] Built target frame_transforms
+[0.113s] [ 33%] Built target offboard_control
+[0.118s] [ 50%] Built target sensor_combined_listener
+[0.119s] [ 66%] Built target vehicle_gps_position_listener
+[0.125s] [ 83%] Built target debug_vect_advertiser
+[0.160s] [ 91%] [32mBuilding CXX object CMakeFiles/offboard_test.dir/src/examples/offboard/offboard_test.cpp.o[0m
+[1.566s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:260:38:[m[K [01;31m[Kerror: [m[K‘[01m[KTimesync[m[K’ is not a member of ‘[01m[Kpx4_msgs::msg[m[K’
+[1.566s]   260 |  rclcpp::Subscription<px4_msgs::msg::[01;31m[KTimesync[m[K>::SharedPtr timesync_sub_;
+[1.566s]       |                                      [01;31m[K^~~~~~~~[m[K
+[1.567s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:260:38:[m[K [01;31m[Kerror: [m[K‘[01m[KTimesync[m[K’ is not a member of ‘[01m[Kpx4_msgs::msg[m[K’
+[1.567s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:260:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.567s]   260 |  rclcpp::Subscription<px4_msgs::msg::Timesync[01;31m[K>[m[K::SharedPtr timesync_sub_;
+[1.567s]       |                                              [01;31m[K^[m[K
+[1.567s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:260:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.568s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:260:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.568s]   260 | clcpp::Subscription<px4_msgs::msg::Timesync>::[01;31m[KSharedPtr[m[K timesync_sub_;
+[1.568s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[1.568s]       |                                                        [32m[K;[m[K
+[1.569s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:260:59:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimesync_sub_[m[K’ does not name a type
+[1.569s]   260 | :Subscription<px4_msgs::msg::Timesync>::SharedPtr [01;31m[Ktimesync_sub_[m[K;
+[1.570s]       |                                                   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.570s] 
+[1.589s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[1.590s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:119:91:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOffboardControl::create_publisher<px4_msgs::msg::OffboardControlMode>(const char [42])[m[K’
+[1.590s]   119 | e>("uav1_control/fmu/offboard_control_mode/in"[01;31m[K)[m[K;
+[1.590s]       |                                               [01;31m[K^[m[K
+[1.590s] 
+[1.590s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.590s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.590s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.591s]                  from [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:61[m[K:
+[1.591s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.591s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[1.591s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.591s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.591s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:119:91:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[1.591s]   119 | e>("uav1_control/fmu/offboard_control_mode/in"[01;36m[K)[m[K;
+[1.592s]       |                                               [01;36m[K^[m[K
+[1.592s] 
+[1.592s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:121:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOffboardControl::create_publisher<px4_msgs::msg::TrajectorySetpoint>(const char [40])[m[K’
+[1.592s]   121 | int>("uav1_control/fmu/trajectory_setpoint/in"[01;31m[K)[m[K;
+[1.592s]       |                                               [01;31m[K^[m[K
+[1.592s] 
+[1.592s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.593s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.593s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.593s]                  from [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:61[m[K:
+[1.593s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.593s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[1.593s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.593s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.594s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:121:88:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[1.594s]   121 | int>("uav1_control/fmu/trajectory_setpoint/in"[01;36m[K)[m[K;
+[1.594s]       |                                               [01;36m[K^[m[K
+[1.594s] 
+[1.594s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:123:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOffboardControl::create_publisher<px4_msgs::msg::VehicleCommand>(const char [36])[m[K’
+[1.595s]   123 | Command>("uav1_control/fmu/vehicle_command/in"[01;31m[K)[m[K;
+[1.595s]       |                                               [01;31m[K^[m[K
+[1.595s] 
+[1.595s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.596s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.596s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.596s]                  from [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:61[m[K:
+[1.596s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[1.596s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[1.596s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.596s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.596s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:123:80:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[1.596s]   123 | Command>("uav1_control/fmu/vehicle_command/in"[01;36m[K)[m[K;
+[1.597s]       |                                               [01;36m[K^[m[K
+[1.597s] 
+[1.597s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:128:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimesync_sub_[m[K’ was not declared in this scope
+[1.597s]   128 |   [01;31m[Ktimesync_sub_[m[K =
+[1.597s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.597s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:129:45:[m[K [01;31m[Kerror: [m[K‘[01m[KTimesync[m[K’ is not a member of ‘[01m[Kpx4_msgs::msg[m[K’
+[1.597s]   129 |    this->create_subscription<px4_msgs::msg::[01;31m[KTimesync[m[K>("uav1_control/fmu/timesync/out", 10,
+[1.597s]       |                                             [01;31m[K^~~~~~~~[m[K
+[1.597s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:129:45:[m[K [01;31m[Kerror: [m[K‘[01m[KTimesync[m[K’ is not a member of ‘[01m[Kpx4_msgs::msg[m[K’
+[1.598s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:130:33:[m[K [01;31m[Kerror: [m[K‘[01m[KTimesync[m[K’ in namespace ‘[01m[Kpx4_msgs::msg[m[K’ does not name a type
+[1.598s]   130 |     [this](const px4_msgs::msg::[01;31m[KTimesync[m[K::UniquePtr msg) {
+[1.598s]       |                                 [01;31m[K^~~~~~~~[m[K
+[1.598s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:[m[K In lambda function:
+[1.598s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:132:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K;[m[K’ token
+[1.598s]   132 |     })[01;31m[K;[m[K
+[1.598s]       |       [01;31m[K^[m[K
+[1.598s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:[m[K In constructor ‘[01m[KOffboardControl::OffboardControl()[m[K’:
+[1.598s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:132:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[1.599s]   132 |     })[01;31m[K;[m[K
+[1.599s]       |       [01;31m[K^[m[K
+[1.599s]       |       [32m[K)[m[K
+[1.599s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:129:54:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[1.599s]   129 | ->create_subscription<px4_msgs::msg::Timesync>[01;36m[K([m[K"uav1_control/fmu/timesync/out", 10,
+[1.599s]       |                                               [01;36m[K^[m[K
+[1.599s] 
+[1.627s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:[m[K In member function ‘[01m[Kvoid OffboardControl::publish_trajectory_setpoint(float, float, float) const[m[K’:
+[1.627s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:336:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing TrajectorySetpoint = struct px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+[1.627s]   336 |  msg.[01;31m[Kx[m[K = -x + x_init_corrdinate;
+[1.627s]       |      [01;31m[K^[m[K
+[1.628s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:337:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing TrajectorySetpoint = struct px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+[1.628s]   337 |  msg.[01;31m[Ky[m[K = -y + y_init_corrdinate;
+[1.628s]       |      [01;31m[K^[m[K
+[1.628s] [01m[K/home/xingxunliu/ws_sensor_combined/src/px4_ros_com/src/examples/offboard/offboard_test.cpp:338:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing TrajectorySetpoint = struct px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct px4_msgs::msg::TrajectorySetpoint_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kz[m[K’
+[1.628s]   338 |  msg.[01;31m[Kz[m[K = -z + z_init_corrdinate;
+[1.628s]       |      [01;31m[K^[m[K
+[3.404s] make[2]: *** [CMakeFiles/offboard_test.dir/build.make:63：CMakeFiles/offboard_test.dir/src/examples/offboard/offboard_test.cpp.o] 错误 1
+[3.404s] make[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/offboard_test.dir/all] 错误 2
+[3.405s] make: *** [Makefile:141：all] 错误 2
+[3.409s] Invoked command in '/home/xingxunliu/ws_sensor_combined/build/px4_ros_com' returned '2': AMENT_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/xingxunliu/ws_sensor_combined/install/px4_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/xingxunliu/ws_sensor_combined/build/px4_ros_com -- -j16 -l16

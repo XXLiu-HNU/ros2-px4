@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:85:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "//z这里注意第二行加了".
+
+
+make: *** [Makefile:706：cmake_check_build_system] 错误 1

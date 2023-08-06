@@ -1,0 +1,49 @@
+[0.918s] Invoking command in '/home/xingxunliu/ws_sensor_combined/src/suanfa': PYTHONPATH=/home/xingxunliu/ws_sensor_combined/build/suanfa/prefix_override:/home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/suanfa build --build-base /home/xingxunliu/ws_sensor_combined/build/suanfa/build install --record /home/xingxunliu/ws_sensor_combined/build/suanfa/install.log --install-scripts $base/lib/suanfa --single-version-externally-managed
+[1.037s] /home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/dist.py:745: SetuptoolsDeprecationWarning: Invalid dash-separated options
+[1.037s] !!
+[1.037s] 
+[1.038s]         ********************************************************************************
+[1.038s]         Usage of dash-separated 'script-dir' will not be supported in future
+[1.038s]         versions. Please use the underscore name 'script_dir' instead.
+[1.038s] 
+[1.038s]         By 2023-Sep-26, you need to update your project and remove deprecated calls
+[1.038s]         or your builds will no longer be supported.
+[1.039s] 
+[1.039s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[1.039s]         ********************************************************************************
+[1.039s] 
+[1.039s] !!
+[1.039s]   opt = self.warn_dash_deprecation(opt, section)
+[1.129s] running egg_info
+[1.140s] writing ../../build/suanfa/suanfa.egg-info/PKG-INFO
+[1.141s] writing dependency_links to ../../build/suanfa/suanfa.egg-info/dependency_links.txt
+[1.141s] writing entry points to ../../build/suanfa/suanfa.egg-info/entry_points.txt
+[1.141s] writing requirements to ../../build/suanfa/suanfa.egg-info/requires.txt
+[1.141s] writing top-level names to ../../build/suanfa/suanfa.egg-info/top_level.txt
+[1.234s] reading manifest file '../../build/suanfa/suanfa.egg-info/SOURCES.txt'
+[1.236s] writing manifest file '../../build/suanfa/suanfa.egg-info/SOURCES.txt'
+[1.236s] running build
+[1.236s] running build_py
+[1.237s] running install
+[1.237s] /home/xingxunliu/.local/lib/python3.8/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[1.238s] !!
+[1.238s] 
+[1.238s]         ********************************************************************************
+[1.238s]         Please avoid running ``setup.py`` directly.
+[1.238s]         Instead, use pypa/build, pypa/installer or other
+[1.239s]         standards-based tools.
+[1.239s] 
+[1.239s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[1.239s]         ********************************************************************************
+[1.239s] 
+[1.239s] !!
+[1.240s]   self.initialize_options()
+[1.249s] running install_lib
+[1.262s] running install_data
+[1.276s] running install_egg_info
+[1.292s] removing '/home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa-0.0.0-py3.8.egg-info' (and everything under it)
+[1.292s] Copying ../../build/suanfa/suanfa.egg-info to /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages/suanfa-0.0.0-py3.8.egg-info
+[1.294s] running install_scripts
+[1.355s] Installing suanfa_node script to /home/xingxunliu/ws_sensor_combined/install/suanfa/lib/suanfa
+[1.355s] writing list of installed files to '/home/xingxunliu/ws_sensor_combined/build/suanfa/install.log'
+[1.403s] Invoked command in '/home/xingxunliu/ws_sensor_combined/src/suanfa' returned '0': PYTHONPATH=/home/xingxunliu/ws_sensor_combined/build/suanfa/prefix_override:/home/xingxunliu/ws_sensor_combined/install/suanfa/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/suanfa build --build-base /home/xingxunliu/ws_sensor_combined/build/suanfa/build install --record /home/xingxunliu/ws_sensor_combined/build/suanfa/install.log --install-scripts $base/lib/suanfa --single-version-externally-managed
